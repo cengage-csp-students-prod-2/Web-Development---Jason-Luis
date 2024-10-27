@@ -1,0 +1,15 @@
+
+Status: FAILED!
+Check: 1
+Test: Include a `<footer>` and a `<cite>` tag.
+Reason: Assertion failed: "From A Boy's Will" != "A Boy's Will"
+- From A Boy's Will
+? -----
++ A Boy's Will
+ : cite element does not contain the expected text
+Error : AssertionError - "From A Boy's Will" != "A Boy's Will"
+- From A Boy's Will
+? -----
++ A Boy's Will
+ : cite element does not contain the expected text
+Timestamp: 2024-10-27 18:24:46.270207
