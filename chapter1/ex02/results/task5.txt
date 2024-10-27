@@ -1,15 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Include a `<footer>` and a `<cite>` tag.
-Reason: Assertion failed: " A Boy's Will" != "A Boy's Will"
--  A Boy's Will
-? -
-+ A Boy's Will
- : cite element does not contain the expected text
-Error : AssertionError - " A Boy's Will" != "A Boy's Will"
--  A Boy's Will
-? -
-+ A Boy's Will
- : cite element does not contain the expected text
-Timestamp: 2024-10-27 21:54:36.328545
+Reason: None
+Timestamp: 2024-10-27 21:55:37.739338
