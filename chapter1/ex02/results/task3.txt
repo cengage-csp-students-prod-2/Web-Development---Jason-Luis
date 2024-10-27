@@ -4,12 +4,12 @@ Check: 1
 Test: Mark each stanza of the poem as a paragraph.
 Reason: Assertion failed: 0 != 3 : Webpage does not contain the expected number of paragraph elements
 Error : AssertionError - 0 != 3 : Webpage does not contain the expected number of paragraph elements
-Timestamp: 2024-10-27 18:42:47.179990
+Timestamp: 2024-10-27 18:53:37.895594
 
 Status: FAILED!
 Check: 2
 Test: Insert three `&nbsp;` character entities to indent the text of those lines three spaces
 Reason: Unable to find '&nbsp;&nbsp;&nbsp;' in the program. 
-Expected to find at least 6 instances, but found 3.
+Expected to find at least 6 instances, but found 2.
 Error : str - AssertionError
-Timestamp: 2024-10-27 18:42:47.180393
+Timestamp: 2024-10-27 18:53:37.895870
