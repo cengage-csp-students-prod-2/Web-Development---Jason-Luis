@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Add an attribute to the opening `<html>` tag to set the language of the page to “en” (for English).
-Reason: Assertion failed: None != 'en' : html element does not have the expected lang attribute value
-Error : AssertionError - None != 'en' : html element does not have the expected lang attribute value
-Timestamp: 2024-10-27 22:05:24.904090
+Reason: None
+Timestamp: 2024-10-27 22:06:24.480116
