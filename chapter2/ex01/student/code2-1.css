@@ -5,10 +5,13 @@
    Tutorial 2
    Coding Activity 1
 
-   Author: 
-   Date:   
+   Author:Jason Luis
+   Date:11/4/2024 
    
    Filename: code2-1.css
 
 */
-
+h1{
+   font-size: 3.5em;
+   line-height: 0em;
+}
