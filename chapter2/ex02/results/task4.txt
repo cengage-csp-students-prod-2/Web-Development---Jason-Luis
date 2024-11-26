@@ -4,25 +4,25 @@ Check: 1
 Test: For `h1` headings that are direct children of the `nav` element set the `font-size` to 1.2em.
 Reason: Assertion failed: Style rule not applied to h1 headings, expected font-size: 19.2px (1.2em) but found 24px
 Error : AssertionError - Style rule not applied to h1 headings, expected font-size: 19.2px (1.2em) but found 24px
-Timestamp: 2024-11-26 21:35:01.873981
+Timestamp: 2024-11-26 21:43:04.797817
 
 Status: FAILED!
 Check: 2
 Test: For `h1` headings that are direct children of the `nav` element set the font's `color` to white.
 Reason: Assertion failed: Style rule not applied to h1 headings, expected color: rgba(255, 255, 255, 1) (white) but found rgba(0, 0, 0, 1)
 Error : AssertionError - Style rule not applied to h1 headings, expected color: rgba(255, 255, 255, 1) (white) but found rgba(0, 0, 0, 1)
-Timestamp: 2024-11-26 21:35:01.893527
+Timestamp: 2024-11-26 21:43:04.820414
 
 Status: FAILED!
 Check: 3
 Test: For `h1` headings that are direct children of the `nav` element set the `background-color` to black.
 Reason: Assertion failed: Style rule not applied to h1 headings, expected background-color: rgba(0, 0, 0, 1) (black) but found rgba(0, 0, 0, 0)
 Error : AssertionError - Style rule not applied to h1 headings, expected background-color: rgba(0, 0, 0, 1) (black) but found rgba(0, 0, 0, 0)
-Timestamp: 2024-11-26 21:35:01.914576
+Timestamp: 2024-11-26 21:43:04.867947
 
 Status: FAILED!
 Check: 4
 Test: For `h1` headings that are direct children of the `nav` element set the `text-align` property to center.
 Reason: Assertion failed: Style rule not applied to h1 headings, expected text-align: center but found start
 Error : AssertionError - Style rule not applied to h1 headings, expected text-align: center but found start
-Timestamp: 2024-11-26 21:35:01.933148
+Timestamp: 2024-11-26 21:43:04.885763
