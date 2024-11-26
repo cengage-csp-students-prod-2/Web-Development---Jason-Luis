@@ -4,18 +4,18 @@ Check: 1
 Test: For `h1` headings that are direct children of the `header` element create a style rule to set the `text-align` property to center.
 Reason: Assertion failed: Style rule not applied to h1 headings, expected text-align: center but found start
 Error : AssertionError - Style rule not applied to h1 headings, expected text-align: center but found start
-Timestamp: 2024-11-26 21:15:55.116734
+Timestamp: 2024-11-26 21:16:58.108502
 
 Status: FAILED!
 Check: 2
 Test: For `h1` headings that are direct children of the `header` element create a style rule to set the `font-family` to Impact, sans-serif.
 Reason: Assertion failed: Style rule not applied to h1 headings, expected font-family: Impact, sans-serif but found "Times New Roman"
 Error : AssertionError - Style rule not applied to h1 headings, expected font-family: Impact, sans-serif but found "Times New Roman"
-Timestamp: 2024-11-26 21:15:55.134670
+Timestamp: 2024-11-26 21:16:58.127897
 
 Status: FAILED!
 Check: 3
 Test: For `h1` headings that are direct children of the `header` element create a style rule to set the `font-size` to 3em.
 Reason: Assertion failed: Style rule not applied to h1 headings, expected font-size: 48px (3em) but found 32px
 Error : AssertionError - Style rule not applied to h1 headings, expected font-size: 48px (3em) but found 32px
-Timestamp: 2024-11-26 21:15:55.153550
+Timestamp: 2024-11-26 21:16:58.147074
