@@ -30,7 +30,7 @@ article > h1{
    font-family: cursive; 
 }
 
-li{
+nav > ul{
    list-style-type: none; 
    line-height: 2em; 
 
