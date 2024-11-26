@@ -4,10 +4,10 @@ Check: 1
 Test: Create a style rule for the `blockquote` element that sets the `color` property to the value hsl(30, 85%, 45%) and sets the `font-size` property to 1.5em.
 Reason: Assertion failed: Color property is not set correctly, expected rgba(212, 115, 17, 1) (hsl(30, 85%, 45%)) but found rgba(0, 0, 0, 1)
 Error : AssertionError - Color property is not set correctly, expected rgba(212, 115, 17, 1) (hsl(30, 85%, 45%)) but found rgba(0, 0, 0, 1)
-Timestamp: 2024-11-26 20:39:35.950267
+Timestamp: 2024-11-26 20:41:16.255486
 
 Status: PASSED!
 Check: 2
 Test: Create a style for the first letter of the `blockquote` element that sets the `font-size` property to 1.5em.
 Reason: None
-Timestamp: 2024-11-26 20:39:35.960506
+Timestamp: 2024-11-26 20:41:16.268878
