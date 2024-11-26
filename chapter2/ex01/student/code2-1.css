@@ -17,17 +17,6 @@ h1{
 }
 
 h1,h2{
-  font-family:Arial, Helvetica, sans-serif; 
-}
-
-h1,h2.arial{
-   letter-spacing: 0.1em; 
-}
-
-h1,h2.Helvetica{
-   letter-spacing: 0.1em; 
-}
-
-h1,h2.sans-serif{
-   letter-spacing: 0.1em;
+  font-family: Helvetica, Arial, sans-serif; 
+  letter-spacing: 0.1em; 
 }
