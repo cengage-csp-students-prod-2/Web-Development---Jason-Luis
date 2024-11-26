@@ -3,16 +3,16 @@ Status: PASSED!
 Check: 1
 Test: For `ul` elements nested within the `nav` element, set the `list-style-type` to none.
 Reason: None
-Timestamp: 2024-11-26 22:30:46.227888
+Timestamp: 2024-11-26 22:34:39.985308
 
 Status: PASSED!
 Check: 2
 Test: For `ul` elements nested within the `nav` element, set the `line-height` to **2em**.
 Reason: None
-Timestamp: 2024-11-26 22:30:46.245445
+Timestamp: 2024-11-26 22:34:40.002874
 
 Status: PASSED!
 Check: 3
 Test: For all hypertext links in the document, set the `color` to ivory and set the `text-decoration` to none.
 Reason: None
-Timestamp: 2024-11-26 22:30:46.269915
+Timestamp: 2024-11-26 22:34:40.022741
