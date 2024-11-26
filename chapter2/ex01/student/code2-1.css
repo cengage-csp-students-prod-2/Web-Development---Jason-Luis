@@ -27,6 +27,6 @@ blockquote{
    
 }
 
-blockquote.first-letter{
-   font-size: 1.5em; 
+blockquote::first-letter{
+   font-size: 1.5em;
 }
