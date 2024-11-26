@@ -3,16 +3,16 @@ Status: PASSED!
 Check: 1
 Test: For `h1` headings that are direct children of the `header` element create a style rule to set the `text-align` property to center.
 Reason: None
-Timestamp: 2024-11-26 22:34:39.743620
+Timestamp: 2024-11-26 22:35:48.273584
 
 Status: PASSED!
 Check: 2
 Test: For `h1` headings that are direct children of the `header` element create a style rule to set the `font-family` to Impact, sans-serif.
 Reason: None
-Timestamp: 2024-11-26 22:34:39.760803
+Timestamp: 2024-11-26 22:35:48.294796
 
 Status: PASSED!
 Check: 3
 Test: For `h1` headings that are direct children of the `header` element create a style rule to set the `font-size` to 3em.
 Reason: None
-Timestamp: 2024-11-26 22:34:39.779961
+Timestamp: 2024-11-26 22:35:48.345597
