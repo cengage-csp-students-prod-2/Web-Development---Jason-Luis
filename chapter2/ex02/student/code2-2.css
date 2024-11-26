@@ -18,7 +18,7 @@ header > h1{
    font-size:3em;
 }
 
-nav>h1{
+nav > h1{
    font-size:1.2em; 
    color:white; 
    background-color:black;
@@ -28,4 +28,15 @@ nav>h1{
 article > h1{
    font-size: 2em;
    font-family: cursive; 
+}
+
+nav > li{
+   list-style-type: none; 
+   line-height: 2em; 
+
+} 
+
+a:link {
+   color:ivory; 
+   text-decoration: none;
 }
