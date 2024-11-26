@@ -13,14 +13,19 @@
 */
 
 header > h1{
-   text-align: center;
+   text-align:center;
    font-family:Impact,sans-serif; 
-   font-size: 3em;
+   font-size:3em;
 }
 
 nav > h1{
    font-size:1.2em; 
    color:white; 
-   background-color: black;
-   text-align: center;
+   background-color:black;
+   text-align:center;
+}
+
+article > h1{
+   font-size: 2em;
+   font-family: cursive; 
 }
