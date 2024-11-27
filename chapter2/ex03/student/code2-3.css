@@ -21,7 +21,7 @@ h1,h2{
    font-family: Helvetica, Arial, or sans-serif;
 }
 
-header > h1{
+h1{
    font-size:3em; 
    line-height: 1em;
    margin-bottom: 0;
