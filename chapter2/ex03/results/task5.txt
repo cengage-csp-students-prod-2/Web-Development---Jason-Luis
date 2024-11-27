@@ -1,0 +1,21 @@
+
+Status: FAILED!
+Check: 1
+Test: For all `h1` headings, set the font size to 3em.
+Reason: Assertion failed: Style rule not applied to all h1 elements, expected font-size: 3em but found 24px
+Error : AssertionError - Style rule not applied to all h1 elements, expected font-size: 3em but found 24px
+Timestamp: 2024-11-27 00:46:48.872760
+
+Status: FAILED!
+Check: 2
+Test: For all `h1` headings, set the line height to 1em.
+Reason: Assertion failed: Style rule not applied to all h1 elements, expected line-height: 48px (1em) but found normal
+Error : AssertionError - Style rule not applied to all h1 elements, expected line-height: 48px (1em) but found normal
+Timestamp: 2024-11-27 00:46:48.884375
+
+Status: FAILED!
+Check: 3
+Test: For all `h1` headings, set the bottom margin to 0px.
+Reason: Assertion failed: Style rule not applied to all h1 elements, expected margin-bottom: 0px but found 19.92px
+Error : AssertionError - Style rule not applied to all h1 elements, expected margin-bottom: 0px but found 19.92px
+Timestamp: 2024-11-27 00:46:48.896912
