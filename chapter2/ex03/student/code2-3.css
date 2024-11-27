@@ -11,3 +11,12 @@
    Filename: code2-3.css
 
 */
+
+html{
+   padding-left: 30px;
+   background-color: hsla(40,80%,75%,0.5);
+}
+
+h1,h2{
+   font-family: Helvetica, Arial, sans-serif;
+}
