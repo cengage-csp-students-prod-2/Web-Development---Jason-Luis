@@ -46,6 +46,6 @@ p{
 } 
 
 p:first-of-type::first-line{
-   text-indent: 0; 
+   text-indent:0; 
    font-variant: small-caps;
 }
