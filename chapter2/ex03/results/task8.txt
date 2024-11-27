@@ -3,17 +3,16 @@ Status: PASSED!
 Check: 1
 Test: For all paragraphs, set the font size to 1.4em.
 Reason: None
-Timestamp: 2024-11-27 00:59:29.818524
+Timestamp: 2024-11-27 01:00:37.321605
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: For the first paragraph, set the text indent to 0.
-Reason: Assertion failed: Style rule not applied to all p elements, expected text-indent: 0px but found 22.4px
-Error : AssertionError - Style rule not applied to all p elements, expected text-indent: 0px but found 22.4px
-Timestamp: 2024-11-27 00:59:29.834680
+Reason: None
+Timestamp: 2024-11-27 01:00:37.338811
 
 Status: PASSED!
 Check: 3
 Test: For the first line of the first paragraph, set the font variant to small-caps.
 Reason: None
-Timestamp: 2024-11-27 00:59:30.863757
+Timestamp: 2024-11-27 01:00:38.363979
