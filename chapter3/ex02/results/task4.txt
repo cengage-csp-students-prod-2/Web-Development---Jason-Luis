@@ -3,36 +3,36 @@ Status: PASSED!
 Check: 1
 Test: Create a style rule for the `body` element that sets the `width` to 90% of the browser window, ranging from a minimum width of 640 pixels up to a maximum width of 1024 pixels. 
 Reason: None
-Timestamp: 2024-12-06 06:53:22.536780
+Timestamp: 2024-12-06 06:55:44.101829
 
 Status: PASSED!
 Check: 2
 Test: Create a style rule for the `body` element that sets the top/bottom margin to 30 pixels and the left/right margin to auto.
 Reason: None
-Timestamp: 2024-12-06 06:53:22.548995
+Timestamp: 2024-12-06 06:55:44.114017
 
 Status: PASSED!
 Check: 3
 Test: Create a style rule for the `body` element that displays the body as a CSS grid.
 Reason: None
-Timestamp: 2024-12-06 06:53:22.562582
+Timestamp: 2024-12-06 06:55:44.126205
 
 Status: FAILED!
 Check: 4
 Test: Create a style rule for the `body` element that creates six grid columns each with a `width` of 1fr.
 Reason: Assertion failed: The columns of the body are not set to 1fr 1fr 1fr 1fr 1fr 1fr, expected to find 158.172px but found 221.766px 386.109px 386.125px
 Error : AssertionError - The columns of the body are not set to 1fr 1fr 1fr 1fr 1fr 1fr, expected to find 158.172px but found 221.766px 386.109px 386.125px
-Timestamp: 2024-12-06 06:53:22.595321
+Timestamp: 2024-12-06 06:55:44.139637
 
 Status: FAILED!
 Check: 5
 Test: Create a style rule for the `body` element that creates five grid rows with widths of 50 pixels, 30 pixels, 1fr, 1fr, and 100 pixels.
 Reason: Assertion failed: The rows of the body are not set to 50px 30px 1fr 1fr 100px, expected 50px 30px 172.031px 172.047px 100px (50px 30px 1fr 1fr 100px) but found 64.0781px 431.078px 32.7969px 164.203px 74px 74px 56px
 Error : AssertionError - The rows of the body are not set to 50px 30px 1fr 1fr 100px, expected 50px 30px 172.031px 172.047px 100px (50px 30px 1fr 1fr 100px) but found 64.0781px 431.078px 32.7969px 164.203px 74px 74px 56px
-Timestamp: 2024-12-06 06:53:22.609037
+Timestamp: 2024-12-06 06:55:44.151672
 
 Status: PASSED!
 Check: 6
 Test: Create a style rule for the `body` element that adds a grid gap of 15 pixels.
 Reason: None
-Timestamp: 2024-12-06 06:53:22.623520
+Timestamp: 2024-12-06 06:55:44.164197
