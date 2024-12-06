@@ -12,7 +12,7 @@
 
 */
 
-header, footer, aside, article, a:link{
+header, footer, aside, article, a{
    padding:10px; 
-   outline: 3px gray; 
+   outline: 3px dashed rgb(128,128,128); 
 }
