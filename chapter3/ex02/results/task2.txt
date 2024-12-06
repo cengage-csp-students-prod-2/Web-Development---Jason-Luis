@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Insert a `link` element linking the page to the code3-2.css file.
+Reason: None
+Timestamp: 2024-12-06 05:24:19.938574
+
+Status: PASSED!
+Check: 2
+Test: Insert a `link` element linking the page to the code3-2_layout.css file.
+Reason: None
+Timestamp: 2024-12-06 05:24:19.940041
