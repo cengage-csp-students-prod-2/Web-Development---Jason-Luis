@@ -4,25 +4,25 @@ Check: 1
 Test: Have the `header` element span from gridline 1 to gridline -1.
 Reason: Assertion failed: The grid-column of the header is not set to 1 / -1, expected 1 / -1 but found auto
 Error : AssertionError - The grid-column of the header is not set to 1 / -1, expected 1 / -1 but found auto
-Timestamp: 2024-12-06 06:42:51.864048
+Timestamp: 2024-12-06 06:46:05.686957
 
 Status: FAILED!
 Check: 2
 Test: Have the `article#intro` element span two rows and two columns.
 Reason: Assertion failed: The grid-column of the article#intro is not set to span 2, expected span 2 but found 2
 Error : AssertionError - The grid-column of the article#intro is not set to span 2, expected span 2 but found 2
-Timestamp: 2024-12-06 06:42:51.885155
+Timestamp: 2024-12-06 06:46:05.707051
 
 Status: FAILED!
 Check: 3
 Test: Have the `article#main` element span two rows and three columns.
 Reason: Assertion failed: The grid-column of the article#main is not set to span 3, expected span 3 but found 3
 Error : AssertionError - The grid-column of the article#main is not set to span 3, expected span 3 but found 3
-Timestamp: 2024-12-06 06:42:51.904360
+Timestamp: 2024-12-06 06:46:05.724783
 
 Status: FAILED!
 Check: 4
 Test: Have the `footer` element span two columns.
 Reason: Assertion failed: The grid-column of the footer is not set to span 2, expected span 2 but found 2
 Error : AssertionError - The grid-column of the footer is not set to span 2, expected span 2 but found 2
-Timestamp: 2024-12-06 06:42:51.921056
+Timestamp: 2024-12-06 06:46:05.742610
