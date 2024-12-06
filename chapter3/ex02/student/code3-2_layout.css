@@ -27,12 +27,12 @@ body{
    margin-left: auto;
    display:grid; 
    grid-template-columns: repeat(6, 1fr);
-   grid-template-rows: repeat(5, 50px, 30px, 1fr, 1fr, 100px);
+   grid-template-rows: repeat(5, 50px, 30px, 1fr 1fr, 100px);
    grid-gap:15px; 
 } 
 
 header{
-   grid-template-areas: span 1/-1
+   grid-template-areas: 1/-1;
 }
 
 article#intro{
