@@ -27,6 +27,11 @@ body{
    margin-left: auto;
    display:grid; 
    grid-template-columns: repeat(6,1fr);
-   grid-template-rows: repeat(50px, 30px, 1fr, 1fr, 100px);
+   grid-template-rows: repeat(5,50px, 30px, 1fr, 1fr, 100px);
    grid-gap:15px; 
+} 
+
+header{
+   grid-area: 1/-1;
+
 }
