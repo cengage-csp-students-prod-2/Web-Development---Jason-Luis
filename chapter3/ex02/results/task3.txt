@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: Create a style rule for the `header`, `footer`, `aside`, `article`, and `a` (hyperlink) elements to set the padding space to **10** pixels.
+Reason: Assertion failed: The padding of the hyperlink is not set to 10px, expected 10px but found 0px
+Error : AssertionError - The padding of the hyperlink is not set to 10px, expected 10px but found 0px
+Timestamp: 2024-12-06 05:28:06.756108
+
+Status: FAILED!
+Check: 2
+Test: Create a style rule for the `header`, `footer`, `aside`, `article`, and `a` (hyperlink) elements to add a 3-pixel, gray, dashed outline.
+Reason: Assertion failed: The outline of the header is not set to 3px dashed rgb(128, 128, 128), expected 3px dashed rgb(128, 128, 128) but found rgb(128, 128, 128) none 0px
+Error : AssertionError - The outline of the header is not set to 3px dashed rgb(128, 128, 128), expected 3px dashed rgb(128, 128, 128) but found rgb(128, 128, 128) none 0px
+Timestamp: 2024-12-06 05:28:06.769170
