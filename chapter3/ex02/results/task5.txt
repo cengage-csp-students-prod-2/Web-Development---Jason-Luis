@@ -4,25 +4,24 @@ Check: 1
 Test: Have the `header` element span from gridline 1 to gridline -1.
 Reason: Assertion failed: The grid-column of the header is not set to 1 / -1, expected 1 / -1 but found auto
 Error : AssertionError - The grid-column of the header is not set to 1 / -1, expected 1 / -1 but found auto
-Timestamp: 2024-12-06 07:21:54.881660
+Timestamp: 2024-12-06 07:22:40.382266
 
 Status: FAILED!
 Check: 2
 Test: Have the `article#intro` element span two rows and two columns.
-Reason: Assertion failed: The grid-column of the article#intro is not set to span 2, expected span 2 but found 2
-Error : AssertionError - The grid-column of the article#intro is not set to span 2, expected span 2 but found 2
-Timestamp: 2024-12-06 07:21:54.901143
+Reason: Assertion failed: The grid-column of the article#intro is not set to span 2, expected span 2 but found auto
+Error : AssertionError - The grid-column of the article#intro is not set to span 2, expected span 2 but found auto
+Timestamp: 2024-12-06 07:22:40.402878
 
 Status: FAILED!
 Check: 3
 Test: Have the `article#main` element span two rows and three columns.
-Reason: Assertion failed: The grid-column of the article#main is not set to span 3, expected span 3 but found 3
-Error : AssertionError - The grid-column of the article#main is not set to span 3, expected span 3 but found 3
-Timestamp: 2024-12-06 07:21:54.918323
+Reason: Assertion failed: The grid-column of the article#main is not set to span 3, expected span 3 but found auto
+Error : AssertionError - The grid-column of the article#main is not set to span 3, expected span 3 but found auto
+Timestamp: 2024-12-06 07:22:40.420678
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Have the `footer` element span two columns.
-Reason: Assertion failed: The grid-column of the footer is not set to span 2, expected span 2 but found 2
-Error : AssertionError - The grid-column of the footer is not set to span 2, expected span 2 but found 2
-Timestamp: 2024-12-06 07:21:54.976157
+Reason: None
+Timestamp: 2024-12-06 07:22:40.456186
