@@ -32,7 +32,7 @@ body{
 } 
 
 header{
-   grid-template-areas: 1/-1;
+   grid-template-areas: grid-line 1/ grid-line -1;
 }
 
 article#intro{
