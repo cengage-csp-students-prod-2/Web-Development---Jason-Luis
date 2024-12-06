@@ -12,3 +12,7 @@
 
 */
 
+header, footer, aside, article, a:link{
+   padding:10px; 
+   outline: 3px gray; 
+}
