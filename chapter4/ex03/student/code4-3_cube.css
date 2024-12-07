@@ -28,26 +28,22 @@ img#img1{
 
 img#img2{
    transform-style: preserve-3d;
-   rotate: x 90deg;
-   transform: translateZ(-150px)
+   transform: translateZ(-150px), translateX(90deg);
 }
 
 img#img3{
    transform-style: preserve-3d;
-   rotate: y -90deg;
-   transform: translateZ(150px)
+   transform: translateZ(150px), translateY(-90deg);
 }
 
 img#img4{
    transform-style: preserve-3d;
-   rotate: y 90deg;
-   transform: translateZ(150px)
+   transform: translateZ(150px), translateY(90deg)
 }
 
 img#img5{
    transform-style: preserve-3d;
-   rotate: x -90deg;
-   transform: translateZ(-150px)
+   transform: translateZ(-150px), translateX(-90deg)
 } 
 
 img{
