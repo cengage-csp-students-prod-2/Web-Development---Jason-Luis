@@ -11,8 +11,8 @@
 
 */
 
-@media screen and (max-width:500px){
-   img{
+@media only screen and (max-width:500px){
+    article img{
       article{
          display: none;
       }
