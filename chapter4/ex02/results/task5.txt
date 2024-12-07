@@ -3,13 +3,13 @@ Status: PASSED!
 Check: 1
 Test: Create a style rule for the `article` element that adds the black inset box shadow.
 Reason: None
-Timestamp: 2024-12-07 08:03:10.541518
+Timestamp: 2024-12-07 08:08:00.227117
 
 Status: PASSED!
 Check: 2
 Test: Create a style rule for the `article` element that sets the radius of the border corners to 150 pixels.
 Reason: None
-Timestamp: 2024-12-07 08:03:10.557884
+Timestamp: 2024-12-07 08:08:00.240441
 
 Status: FAILED!
 Check: 3
@@ -22,4 +22,4 @@ Error : AssertionError - '100% 100%' != '100% 100%, 0% 0%'
 - 100% 100%
 + 100% 100%, 0% 0%
  : Background position is not set as expected. Expected 100% 100%, 0% 0% (right bottom), but found 100% 100%
-Timestamp: 2024-12-07 08:03:10.586657
+Timestamp: 2024-12-07 08:08:00.270233
