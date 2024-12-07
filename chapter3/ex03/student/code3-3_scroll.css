@@ -67,3 +67,9 @@ div{
 #slide9{
    left:2400px; 
 }
+
+image{
+   display: inline-block; 
+   width: 300px;
+   height: 300px;
+}
