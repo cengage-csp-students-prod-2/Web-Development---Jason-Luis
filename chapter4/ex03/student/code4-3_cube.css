@@ -22,23 +22,23 @@ div#cube{
 }
 
 img#img1{
-   transform: translateZ(-150px)
+   transform: translateZ(-150px);
 } 
 
 img#img2{
-   transform: translateZ(-150px), translateX(90deg);
+   transform: translateZ(-150px), rotateX(90deg);
 }
 
 img#img3{
-   transform: translateZ(150px), translateY(-90deg);
+   transform: translateZ(150px), rotateY(-90deg);
 }
 
 img#img4{
-   transform: translateZ(150px), translateY(90deg)
+   transform: translateZ(150px), rotateY(90deg)
 }
 
 img#img5{
-   transform: translateZ(-150px), translateX(-90deg)
+   transform: translateZ(-150px), rotateX(-90deg)
 } 
 
 img{
