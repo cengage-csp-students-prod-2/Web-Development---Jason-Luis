@@ -1,10 +1,9 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Add the `select` element with the proper attributes to the form.
-Reason: KeyError occurred: 'id'
-Error : KeyError - 'id'
-Timestamp: 2024-12-07 02:11:22.852243
+Reason: None
+Timestamp: 2024-12-07 02:33:53.195423
 
 Status: FAILED!
 Check: 2
@@ -21,4 +20,4 @@ Error : AssertionError - 'Administrator' != 'administrator'
 + administrator
 ? ^
 
-Timestamp: 2024-12-07 02:11:22.853359
+Timestamp: 2024-12-07 02:33:53.196491
