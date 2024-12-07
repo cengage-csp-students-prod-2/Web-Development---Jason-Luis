@@ -10,3 +10,8 @@
    Filename: code5-3_print.css
 
 */
+
+@page{
+   size: 8.5in 11in; 
+   margin: 1in;
+}
