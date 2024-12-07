@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Add a `figure` element to enclose the sonnet content
+Reason: None
+Timestamp: 2024-12-07 06:53:09.665958
+
+Status: PASSED!
+Check: 2
+Test: Insert a `figcaption` element containing the sonnet title
+Reason: None
+Timestamp: 2024-12-07 06:53:09.667546
