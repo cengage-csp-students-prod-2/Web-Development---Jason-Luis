@@ -30,7 +30,7 @@ img#img2{
 }
 
 img#img3{
-   transform: rotateY(-90deg) translateZ(-150px);
+   transform: rotateY(-90deg) translateZ(150px);
 }
 
 img#img4{
