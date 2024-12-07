@@ -10,7 +10,7 @@ Error : AssertionError - 'block' != 'none'
 - block
 + none
  : Display property not set as expected. Expected none, but found block
-Timestamp: 2024-12-07 22:17:22.614513
+Timestamp: 2024-12-07 22:23:26.583426
 
 Status: FAILED!
 Check: 2
@@ -23,4 +23,4 @@ Error : AssertionError - 'left' != 'center'
 - left
 + center
  : Text align property not set as expected. Expected center, but found left
-Timestamp: 2024-12-07 22:17:22.657891
+Timestamp: 2024-12-07 22:23:26.602123
