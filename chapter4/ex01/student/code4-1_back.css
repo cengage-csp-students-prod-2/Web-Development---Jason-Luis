@@ -19,7 +19,11 @@ figure{
    background-position: right bottom;
    width: 45%;
    background:rgba(52,52,180,0.3); 
-   box-shadow: 5px 10px 15px black;
+   box-shadow: 5px 10px 15px black;   
+}
 
-   
+ figure figcaption{
+   font-size: 1.8em;
+   text-align: center;
+   border-bottom: 2px rgb(52,52,180); 
 }
