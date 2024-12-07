@@ -3,11 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Insert a `link` element linking the page to the code7-1_forms.css file.
 Reason: None
-Timestamp: 2024-12-07 01:47:21.509986
+Timestamp: 2024-12-07 01:48:52.628568
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Insert a `script` element linking the page to the formsubmit.js file.
-Reason: Assertion failed: script element not found for formsubmit.js.
-Error : AssertionError - script element not found for formsubmit.js.
-Timestamp: 2024-12-07 01:47:21.510644
+Reason: None
+Timestamp: 2024-12-07 01:48:52.629364
