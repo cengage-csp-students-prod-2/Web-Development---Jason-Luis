@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Create a media query for devices with a maximum width of 500 pixels (500x281 resolution).
 Reason: None
-Timestamp: 2024-12-07 22:26:30.566849
+Timestamp: 2024-12-07 22:35:30.005609
 
 Status: PASSED!
 Check: 2
 Test: Center the text contained within the `ul` element belonging to the `submenu` class.
 Reason: None
-Timestamp: 2024-12-07 22:26:30.587640
+Timestamp: 2024-12-07 22:35:30.026421
