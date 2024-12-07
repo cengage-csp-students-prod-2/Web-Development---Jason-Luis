@@ -1,35 +1,33 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Create a style rule for the `section` element with the id `container` that sets the `width` of the element to 900 pixels and the `height` to 370 pixels.
-Reason: Assertion failed: The width of the section is not set to 900px, expected 900px but found 1185px
-Error : AssertionError - The width of the section is not set to 900px, expected 900px but found 1185px
-Timestamp: 2024-12-07 00:21:03.648039
+Reason: None
+Timestamp: 2024-12-07 00:22:14.375210
 
 Status: FAILED!
 Check: 2
 Test: Create a style rule for the `section` element with the id `container` that horizontally centers the element by adding a 10 pixel top/bottom margin and setting the left/right margin to auto.
-Reason: Assertion failed: The margin of the section is not set to 10px 150px, expected 10px 150px but found 0px
-Error : AssertionError - The margin of the section is not set to 10px 150px, expected 10px 150px but found 0px
-Timestamp: 2024-12-07 00:21:03.665726
+Reason: Assertion failed: The margin of the section is not set to 10px 150px, expected 10px 150px but found 10px 142.5px
+Error : AssertionError - The margin of the section is not set to 10px 150px, expected 10px 150px but found 10px 142.5px
+Timestamp: 2024-12-07 00:22:14.387043
 
 Status: FAILED!
 Check: 3
 Test: Create a style rule for the `section` element with the id `container` that places the element with relative positioning, setting the top value to 30 pixels and the left value to 0 pixels.
 Reason: Assertion failed: The position of the section is not set to relative, expected relative but found static
 Error : AssertionError - The position of the section is not set to relative, expected relative but found static
-Timestamp: 2024-12-07 00:21:03.684538
+Timestamp: 2024-12-07 00:22:14.398655
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Create a style rule for the `section` element with the id `container` that adds a 2 pixel solid brown outline to the element.
-Reason: Assertion failed: The outline of the section is not set to 2px solid rgb(165, 42, 42), expected 2px solid rgb(165, 42, 42) but found rgb(0, 0, 0) none 0px
-Error : AssertionError - The outline of the section is not set to 2px solid rgb(165, 42, 42), expected 2px solid rgb(165, 42, 42) but found rgb(0, 0, 0) none 0px
-Timestamp: 2024-12-07 00:21:03.700483
+Reason: None
+Timestamp: 2024-12-07 00:22:14.453030
 
 Status: FAILED!
 Check: 5
 Test: Create a style rule for the `section` element with the id `container` that has the browser automatically display scrollbars for any overflow content.
 Reason: Assertion failed: The overflow of the section is not set to auto, expected auto but found visible
 Error : AssertionError - The overflow of the section is not set to auto, expected auto but found visible
-Timestamp: 2024-12-07 00:21:03.732882
+Timestamp: 2024-12-07 00:22:14.464622
