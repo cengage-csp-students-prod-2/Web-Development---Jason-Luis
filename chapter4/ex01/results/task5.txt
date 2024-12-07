@@ -10,7 +10,7 @@ Error : AssertionError - '22.4px' != '40.32px'
 - 22.4px
 + 40.32px
  : Font size is not set to 1.8em. Expected 40.32px (1.8em), but found 22.4px
-Timestamp: 2024-12-07 07:16:29.377669
+Timestamp: 2024-12-07 07:17:41.200680
 
 Status: FAILED!
 Check: 2
@@ -23,7 +23,7 @@ Error : AssertionError - 'start' != 'center'
 - start
 + center
  : Text is not centered. Expected center, but found start
-Timestamp: 2024-12-07 07:16:29.390861
+Timestamp: 2024-12-07 07:17:41.213584
 
 Status: FAILED!
 Check: 3
@@ -36,4 +36,4 @@ Error : AssertionError - '0px none rgb(0, 0, 0)' != '2px solid rgb(52, 52, 180)'
 - 0px none rgb(0, 0, 0)
 + 2px solid rgb(52, 52, 180)
  : Bottom border is not set to 2 pixels solid rgb(52, 52, 180). Expected 2px solid rgb(52, 52, 180), but found 0px none rgb(0, 0, 0)
-Timestamp: 2024-12-07 07:16:29.402901
+Timestamp: 2024-12-07 07:17:41.226422
