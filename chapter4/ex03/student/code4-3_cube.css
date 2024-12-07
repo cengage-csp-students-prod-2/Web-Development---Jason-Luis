@@ -22,27 +22,22 @@ div#cube{
 }
 
 img#img1{
-   transform-style: preserve-3d;
    transform: translateZ(-150px)
 } 
 
 img#img2{
-   transform-style: preserve-3d;
    transform: translateZ(-150px), translateX(90deg);
 }
 
 img#img3{
-   transform-style: preserve-3d;
    transform: translateZ(150px), translateY(-90deg);
 }
 
 img#img4{
-   transform-style: preserve-3d;
    transform: translateZ(150px), translateY(90deg)
 }
 
 img#img5{
-   transform-style: preserve-3d;
    transform: translateZ(-150px), translateX(-90deg)
 } 
 
