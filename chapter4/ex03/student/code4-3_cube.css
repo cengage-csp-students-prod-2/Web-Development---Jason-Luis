@@ -23,31 +23,31 @@ div#cube{
 
 img#img1{
    transform-style: preserve-3d;
-   translate: -150px;
+   translate: 0px 0px -150px;
 } 
 
 img#img2{
    transform-style: preserve-3d;
-   rotate: 90deg;
-   translate: -150px;
+   rotate: x 90deg;
+   translate: 0px 0px -150px;
 }
 
 img#img3{
    transform-style: preserve-3d;
-   rotate: -90deg;
-   translate: 150px;
+   rotate: y -90deg;
+   translate: 0px 0px -150px;
 }
 
 img#img4{
    transform-style: preserve-3d;
-   rotate: 90deg;
-   translate: 150px;
+   rotate: y 90deg;
+   translate: 0px 0px -150px;
 }
 
 img#img5{
    transform-style: preserve-3d;
-   rotate: -90deg;
-   translate: -150px;
+   rotate: x -90deg;
+   translate: 0px 0px -150px;
 } 
 
 img{
