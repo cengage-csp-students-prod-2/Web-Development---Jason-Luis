@@ -1,0 +1,26 @@
+
+Status: FAILED!
+Check: 1
+Test: Create a media query for devices with a maximum width of 500 pixels (500x281 resolution).
+Reason: Assertion failed: 'block' != 'none'
+- block
++ none
+ : Display property not set as expected. Expected none, but found block
+Error : AssertionError - 'block' != 'none'
+- block
++ none
+ : Display property not set as expected. Expected none, but found block
+Timestamp: 2024-12-07 22:11:35.178151
+
+Status: FAILED!
+Check: 2
+Test: Center the text contained within the `ul` element belonging to the `submenu` class.
+Reason: Assertion failed: 'left' != 'center'
+- left
++ center
+ : Text align property not set as expected. Expected center, but found left
+Error : AssertionError - 'left' != 'center'
+- left
++ center
+ : Text align property not set as expected. Expected center, but found left
+Timestamp: 2024-12-07 22:11:35.200280
