@@ -1,32 +1,32 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Create a style rule for the `section` element with the id `container` that sets the `width` of the element to 900 pixels and the `height` to 370 pixels.
-Reason: Assertion failed: The width of the section is not set to 900px, expected 900px but found 885px
-Error : AssertionError - The width of the section is not set to 900px, expected 900px but found 885px
-Timestamp: 2024-12-07 00:27:30.206973
+Reason: None
+Timestamp: 2024-12-07 00:28:37.624613
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
 Test: Create a style rule for the `section` element with the id `container` that horizontally centers the element by adding a 10 pixel top/bottom margin and setting the left/right margin to auto.
-Reason: None
-Timestamp: 2024-12-07 00:27:30.219123
+Reason: Assertion failed: The margin of the section is not set to 10px 150px, expected 10px 150px but found 10px 142.5px
+Error : AssertionError - The margin of the section is not set to 10px 150px, expected 10px 150px but found 10px 142.5px
+Timestamp: 2024-12-07 00:28:37.638351
 
 Status: FAILED!
 Check: 3
 Test: Create a style rule for the `section` element with the id `container` that places the element with relative positioning, setting the top value to 30 pixels and the left value to 0 pixels.
-Reason: Assertion failed: The top value of the section is not set to 30px, expected 30px but found 0px
-Error : AssertionError - The top value of the section is not set to 30px, expected 30px but found 0px
-Timestamp: 2024-12-07 00:27:30.237309
+Reason: Assertion failed: The position of the section is not set to relative, expected relative but found static
+Error : AssertionError - The position of the section is not set to relative, expected relative but found static
+Timestamp: 2024-12-07 00:28:37.649995
 
 Status: PASSED!
 Check: 4
 Test: Create a style rule for the `section` element with the id `container` that adds a 2 pixel solid brown outline to the element.
 Reason: None
-Timestamp: 2024-12-07 00:27:30.274152
+Timestamp: 2024-12-07 00:28:37.664715
 
 Status: PASSED!
 Check: 5
 Test: Create a style rule for the `section` element with the id `container` that has the browser automatically display scrollbars for any overflow content.
 Reason: None
-Timestamp: 2024-12-07 00:27:30.286101
+Timestamp: 2024-12-07 00:28:37.676674
