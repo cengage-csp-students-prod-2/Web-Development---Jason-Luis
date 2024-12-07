@@ -3,19 +3,19 @@ Status: PASSED!
 Check: 1
 Test: Create the `fieldset` with the id of 'login'.
 Reason: None
-Timestamp: 2024-12-07 01:57:34.628012
+Timestamp: 2024-12-07 01:59:07.202819
 
 Status: FAILED!
 Check: 2
 Test: Set the text of the `legend` element.
-Reason: Assertion failed: 'Enter Account Information.' != 'Enter Account Information'
-- Enter Account Information.
+Reason: Assertion failed: 'Enter Account Information:' != 'Enter Account Information'
+- Enter Account Information:
 ?                          -
 + Enter Account Information
 
-Error : AssertionError - 'Enter Account Information.' != 'Enter Account Information'
-- Enter Account Information.
+Error : AssertionError - 'Enter Account Information:' != 'Enter Account Information'
+- Enter Account Information:
 ?                          -
 + Enter Account Information
 
-Timestamp: 2024-12-07 01:57:34.629298
+Timestamp: 2024-12-07 01:59:07.203597
