@@ -2,6 +2,16 @@
 Status: FAILED!
 Check: 1
 Test:  Add a `label` to the field set containing the text 'Username' followed by a text input box with the id `username` and the field name 'user'.
-Reason: Assertion failed: Label element not found for Username.
-Error : AssertionError - Label element not found for Username.
-Timestamp: 2024-12-07 06:04:17.768630
+Reason: Assertion failed: 'Username' != 'username'
+- Username
+? ^
++ username
+? ^
+
+Error : AssertionError - 'Username' != 'username'
+- Username
+? ^
++ username
+? ^
+
+Timestamp: 2024-12-07 06:05:53.965489
