@@ -12,14 +12,16 @@
 
 */
 section#container{
-   width: 925px; 
-   height:370px; 
-   margin-top: 10px;
-   margin-bottom: 10px; 
-   margin-right: auto; 
+   width: 900px;
+   height: 370px; 
+   margin-top:10px; 
+   margin-bottom:10px; 
    margin-left: auto; 
-   position: relative 30px;
+   margin-right: auto;
+   position: relative; 
+   top: 30px; 
+   left: 0px;
    outline: 2px solid brown; 
-   display: scroll-bars; 
+   display: scrollbars; 
    overflow: auto;
 }
