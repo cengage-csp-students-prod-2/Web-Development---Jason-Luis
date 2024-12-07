@@ -13,11 +13,11 @@
 
 @media only screen and (max-width:500px){
    img{
-      artcile{
+      article{
          display: none;
       }
 
-      ul#submenu{
+      ul.submenu{
          text-align: center;
       }
    }
@@ -54,5 +54,5 @@
 }
 
 @media only screen and (min-width:710px){
-   
+
 }
