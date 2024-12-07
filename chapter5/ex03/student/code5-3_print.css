@@ -15,3 +15,8 @@
    size: 8.5in 11in; 
    margin: 1in;
 }
+
+nav a{
+   text-decoration: none;
+   line-height: 0.3in; 
+}
