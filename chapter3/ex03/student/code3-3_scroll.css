@@ -11,7 +11,7 @@
    Filename: code3-3_scroll.css
 
 */
-#container{
+section#container{
    width: 900px; 
    height:370px; 
    align-self: center;
