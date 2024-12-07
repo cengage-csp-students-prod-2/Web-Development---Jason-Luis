@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Within the `body` of the web page insert a `form` element with the value of the `action` attribute set to login-script.php and the method value set to 'post'.
 Reason: None
-Timestamp: 2024-12-07 01:52:55.800550
+Timestamp: 2024-12-07 06:26:33.042443
 
 Status: PASSED!
 Check: 2
 Test: Within the `body` of the web page insert a `form` element with the value of the `action` attribute set to login-script.php and the method value set to 'post'.
 Reason: None
-Timestamp: 2024-12-07 01:52:55.801125
+Timestamp: 2024-12-07 06:26:33.044151
