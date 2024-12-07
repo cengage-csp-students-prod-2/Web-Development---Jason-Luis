@@ -41,12 +41,16 @@
       margin: 0;
    }
 
-   ul.mainmenu{
-      flex-flow: row nowrap;
-      content: center; 
+   nav ul.mainmenu{
+      display: flex;
+      flex-flow: row; 
+      flex-wrap:nowrap; 
+      justify-content: center; 
    }
 
-   ul.mainmenu li{
-      flex: 0 1 120px; 
+   nav ul.mainmenu > li{
+      flex-grow: 0;
+      flex-shrink: 1;
+      flex-basis: 120px;
    }
 }
