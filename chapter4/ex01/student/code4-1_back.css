@@ -25,5 +25,5 @@ figure{
  figure figcaption{
    font-size: 1.8em;
    text-align: center;
-   border-bottom: 2px rgb(52,52,180); 
+   border-bottom: 2px solid rgb(52,52,180); 
 }
