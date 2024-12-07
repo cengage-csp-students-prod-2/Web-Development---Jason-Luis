@@ -21,30 +21,30 @@ div#cube{
    transform-style: preserve-3d;
 }
 
-#img1{
+img#img1{
    transform-style: preserve-3d;
    translate: -150px;
 } 
 
-#img2{
+img#img2{
    transform-style: preserve-3d;
    rotate: 90deg;
    translate: -150px;
 }
 
-#img3{
+img#img3{
    transform-style: preserve-3d;
    rotate: -90deg;
    translate: 150px;
 }
 
-#img4{
+img#img4{
    transform-style: preserve-3d;
    rotate: 90deg;
    translate: 150px;
 }
 
-#img5{
+img#img5{
    transform-style: preserve-3d;
    rotate: -90deg;
    translate: -150px;
