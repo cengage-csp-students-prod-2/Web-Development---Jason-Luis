@@ -20,8 +20,10 @@ p{
 }
 
 article{
+   box-shadow: inset 0px 0px 50px 20px black; 
+   size:20px; 
    border-radius: 150px; 
    background-image: url(landscape.png);
-   background-position: right bottom;
+   background-position: bottom right;
    background: linear-gradient(165, rgb(211,0,55), 75%, orange, 80%, yellow, 82% )
 }
