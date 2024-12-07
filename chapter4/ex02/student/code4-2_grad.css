@@ -25,5 +25,5 @@ article{
    border-radius: 150px; 
    background-image: url(landscape.png);
    background-position: bottom right;
-   background: linear-gradient(165deg, rgb(0,0,200), 65%),(0, rgb(211,0,55),75%),(0,orange,80%),(0,yellow,82%);
+   background: linear-gradient(165deg, rgb(0,0,200), 65%),(0, rgb(211,0,55),75%);
 }
