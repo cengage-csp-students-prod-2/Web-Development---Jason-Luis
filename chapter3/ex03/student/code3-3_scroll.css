@@ -69,7 +69,7 @@ div{
 }
 
 image{
-   display: inline-block; 
+   display: block; 
    width: 300px;
    height: 300px;
 }
