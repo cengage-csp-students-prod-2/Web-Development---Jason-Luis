@@ -4,4 +4,4 @@ Check: 1
 Test: Below the field set insert a submit button displaying the text 'Login'.
 Reason: Assertion failed: Submit button not found.
 Error : AssertionError - Submit button not found.
-Timestamp: 2024-12-07 06:30:27.112878
+Timestamp: 2024-12-07 06:32:30.038283
