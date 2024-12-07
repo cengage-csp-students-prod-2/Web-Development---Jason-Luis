@@ -35,13 +35,13 @@ img#img2{
 img#img3{
    transform-style: preserve-3d;
    rotate: y -90deg;
-   translate: 0px 0px -150px;
+   translate: 0px 0px 150px;
 }
 
 img#img4{
    transform-style: preserve-3d;
    rotate: y 90deg;
-   translate: 0px 0px -150px;
+   translate: 0px 0px 150px;
 }
 
 img#img5{
