@@ -16,7 +16,11 @@
    margin: 1in;
 }
 
-nav a{
-   text-decoration: none;
+nav{
    line-height: 0.3in; 
+}
+
+a{
+   text-decoration: none; 
+   page-break-inside: avoid;
 }
