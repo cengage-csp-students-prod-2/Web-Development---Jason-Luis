@@ -3,35 +3,28 @@ Status: PASSED!
 Check: 1
 Test: Set the growth and shrink rate of the `div` elements of the card class to 1 and 1.
 Reason: None
-Timestamp: 2024-12-07 23:28:45.323818
+Timestamp: 2024-12-07 23:29:52.557531
 
 Status: PASSED!
 Check: 2
 Test: Display each `div` element of the `card` class as a flexbox.
 Reason: None
-Timestamp: 2024-12-07 23:28:45.390062
+Timestamp: 2024-12-07 23:29:52.619176
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Lay out the items in column order with no wrapping.
-Reason: Assertion failed: 'row' != 'column'
-- row
-+ column
- : Flex direction property not set as expected. Expected column, but found row
-Error : AssertionError - 'row' != 'column'
-- row
-+ column
- : Flex direction property not set as expected. Expected column, but found row
-Timestamp: 2024-12-07 23:28:45.402689
+Reason: None
+Timestamp: 2024-12-07 23:29:52.682250
 
 Status: PASSED!
 Check: 4
 Test: Justify the content of the items within the `flexbox` with space between.
 Reason: None
-Timestamp: 2024-12-07 23:28:45.463612
+Timestamp: 2024-12-07 23:29:52.745861
 
 Status: PASSED!
 Check: 5
 Test: Center each of the items with respect to the cross axis.
 Reason: None
-Timestamp: 2024-12-07 23:28:45.526037
+Timestamp: 2024-12-07 23:29:52.806855
