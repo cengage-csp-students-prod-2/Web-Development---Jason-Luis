@@ -22,7 +22,7 @@ figure{
    box-shadow: 5px 10px 15px black;   
 }
 
- figure figcaption{
+ figcaption{
    font-size: 1.8em;
    text-align: center;
    border-bottom: 2px solid rgb(52,52,180); 
