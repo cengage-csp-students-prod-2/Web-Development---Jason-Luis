@@ -1,0 +1,32 @@
+
+Status: FAILED!
+Check: 1
+Test: Create a style rule for the `article` element that adds the black inset box shadow.
+Reason: Assertion failed: 'none' != 'rgb(0, 0, 0) 0px 0px 50px 20px inset'
+- none
++ rgb(0, 0, 0) 0px 0px 50px 20px inset
+ : Box shadow is not set as expected. Expected rgb(0, 0, 0) 0px 0px 50px 20px inset, but found none
+Error : AssertionError - 'none' != 'rgb(0, 0, 0) 0px 0px 50px 20px inset'
+- none
++ rgb(0, 0, 0) 0px 0px 50px 20px inset
+ : Box shadow is not set as expected. Expected rgb(0, 0, 0) 0px 0px 50px 20px inset, but found none
+Timestamp: 2024-12-07 07:51:58.361729
+
+Status: PASSED!
+Check: 2
+Test: Create a style rule for the `article` element that sets the radius of the border corners to 150 pixels.
+Reason: None
+Timestamp: 2024-12-07 07:51:58.381421
+
+Status: FAILED!
+Check: 3
+Test: Add a background containing the image file landscape.png placed with no tiling at the bottom right corner of the element with a size of 100%.
+Reason: Assertion failed: '100% 100%' != '100% 100%, 0% 0%'
+- 100% 100%
++ 100% 100%, 0% 0%
+ : Background position is not set as expected. Expected 100% 100%, 0% 0% (right bottom), but found 100% 100%
+Error : AssertionError - '100% 100%' != '100% 100%, 0% 0%'
+- 100% 100%
++ 100% 100%, 0% 0%
+ : Background position is not set as expected. Expected 100% 100%, 0% 0% (right bottom), but found 100% 100%
+Timestamp: 2024-12-07 07:51:58.407306
