@@ -3,10 +3,19 @@ Status: PASSED!
 Check: 1
 Test: Add a `figure` element to enclose the sonnet content
 Reason: None
-Timestamp: 2024-12-07 06:53:09.665958
+Timestamp: 2024-12-07 07:19:33.995562
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
 Test: Insert a `figcaption` element containing the sonnet title
-Reason: None
-Timestamp: 2024-12-07 06:53:09.667546
+Reason: Assertion failed: `figcaption` element does not contain the correct text. Expected "Sonnet 116 by William Shakespeare", but found Sonnet 116 
+      
+         by William Shakespeare
+      
+
+Error : AssertionError - `figcaption` element does not contain the correct text. Expected "Sonnet 116 by William Shakespeare", but found Sonnet 116 
+      
+         by William Shakespeare
+      
+
+Timestamp: 2024-12-07 07:19:33.996468
