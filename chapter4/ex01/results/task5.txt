@@ -1,0 +1,39 @@
+
+Status: FAILED!
+Check: 1
+Test: Create a style rule for the `figcaption` that sets the font size to 1.8em.
+Reason: Assertion failed: '22.4px' != '40.32px'
+- 22.4px
++ 40.32px
+ : Font size is not set to 1.8em. Expected 40.32px (1.8em), but found 22.4px
+Error : AssertionError - '22.4px' != '40.32px'
+- 22.4px
++ 40.32px
+ : Font size is not set to 1.8em. Expected 40.32px (1.8em), but found 22.4px
+Timestamp: 2024-12-07 07:16:29.377669
+
+Status: FAILED!
+Check: 2
+Test: Create a style rule for the `figcaption` that centers the text of the caption.
+Reason: Assertion failed: 'start' != 'center'
+- start
++ center
+ : Text is not centered. Expected center, but found start
+Error : AssertionError - 'start' != 'center'
+- start
++ center
+ : Text is not centered. Expected center, but found start
+Timestamp: 2024-12-07 07:16:29.390861
+
+Status: FAILED!
+Check: 3
+Test: Create a style rule for the `figcaption` that adds a 2 pixel bottom solid bottom border of the color value rgb(52, 52, 180).
+Reason: Assertion failed: '0px none rgb(0, 0, 0)' != '2px solid rgb(52, 52, 180)'
+- 0px none rgb(0, 0, 0)
++ 2px solid rgb(52, 52, 180)
+ : Bottom border is not set to 2 pixels solid rgb(52, 52, 180). Expected 2px solid rgb(52, 52, 180), but found 0px none rgb(0, 0, 0)
+Error : AssertionError - '0px none rgb(0, 0, 0)' != '2px solid rgb(52, 52, 180)'
+- 0px none rgb(0, 0, 0)
++ 2px solid rgb(52, 52, 180)
+ : Bottom border is not set to 2 pixels solid rgb(52, 52, 180). Expected 2px solid rgb(52, 52, 180), but found 0px none rgb(0, 0, 0)
+Timestamp: 2024-12-07 07:16:29.402901
