@@ -1,29 +1,15 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: For the `table` element add a 20 pixel grooved gray border and collapse the table borders.
-Reason: Assertion failed: 'separate' != 'collapse'
-- separate
-+ collapse
+Reason: None
+Timestamp: 2024-12-08 02:41:04.240463
 
-Error : AssertionError - 'separate' != 'collapse'
-- separate
-+ collapse
-
-Timestamp: 2024-12-08 02:33:10.620016
-
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: For the `th` and `td` elements add a 1 pixel solid gray border, set the padding space to 5 pixels, and align the cell content with the top-left corner of the cell.
-Reason: Assertion failed: 'center' != 'left'
-- center
-+ left
-
-Error : AssertionError - 'center' != 'left'
-- center
-+ left
-
-Timestamp: 2024-12-08 02:33:10.651631
+Reason: None
+Timestamp: 2024-12-08 02:41:04.308110
 
 Status: FAILED!
 Check: 3
@@ -36,23 +22,23 @@ Error : AssertionError - '-webkit-center' != 'left'
 - -webkit-center
 + left
  : Expected text-align to be left but found -webkit-center
-Timestamp: 2024-12-08 02:33:10.708032
+Timestamp: 2024-12-08 02:41:04.326378
 
 Status: FAILED!
 Check: 4
 Test: For `col` element with the id `firstCol`, change the background color to yellow and set the column width to 150 pixels.
-Reason: Assertion failed: '139.141px' != '150px'
-- 139.141px
+Reason: Assertion failed: '147.641px' != '150px'
+- 147.641px
 + 150px
 
-Error : AssertionError - '139.141px' != '150px'
-- 139.141px
+Error : AssertionError - '147.641px' != '150px'
+- 147.641px
 + 150px
 
-Timestamp: 2024-12-08 02:33:10.747609
+Timestamp: 2024-12-08 02:41:04.349978
 
 Status: PASSED!
 Check: 5
 Test: Change the background color of the `thead` element to aqua.
 Reason: None
-Timestamp: 2024-12-08 02:33:10.765804
+Timestamp: 2024-12-08 02:41:04.363939
