@@ -3,26 +3,19 @@ Status: PASSED!
 Check: 1
 Test: For the `table` element add a 20 pixel grooved gray border and collapse the table borders.
 Reason: None
-Timestamp: 2024-12-08 02:41:04.240463
+Timestamp: 2024-12-08 02:42:01.453268
 
 Status: PASSED!
 Check: 2
 Test: For the `th` and `td` elements add a 1 pixel solid gray border, set the padding space to 5 pixels, and align the cell content with the top-left corner of the cell.
 Reason: None
-Timestamp: 2024-12-08 02:41:04.308110
+Timestamp: 2024-12-08 02:42:01.514525
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: For the `caption` element, set the display the caption at the top-left of the table and set the font size of the caption text to 1.5em.
-Reason: Assertion failed: '-webkit-center' != 'left'
-- -webkit-center
-+ left
- : Expected text-align to be left but found -webkit-center
-Error : AssertionError - '-webkit-center' != 'left'
-- -webkit-center
-+ left
- : Expected text-align to be left but found -webkit-center
-Timestamp: 2024-12-08 02:41:04.326378
+Reason: None
+Timestamp: 2024-12-08 02:42:01.545600
 
 Status: FAILED!
 Check: 4
@@ -35,10 +28,10 @@ Error : AssertionError - '147.641px' != '150px'
 - 147.641px
 + 150px
 
-Timestamp: 2024-12-08 02:41:04.349978
+Timestamp: 2024-12-08 02:42:01.572545
 
 Status: PASSED!
 Check: 5
 Test: Change the background color of the `thead` element to aqua.
 Reason: None
-Timestamp: 2024-12-08 02:41:04.363939
+Timestamp: 2024-12-08 02:42:01.586848
