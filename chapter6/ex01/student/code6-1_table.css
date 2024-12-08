@@ -11,3 +11,31 @@
 
 */
 
+table{
+   border: 20px groove grey; 
+   border-style: collapse;
+}
+
+th,td{
+   border: 1px solid gray; 
+   padding:5px; 
+   align-content: top left;
+}
+
+caption{
+   display:top left; 
+   font-size: 1.5em; 
+}
+
+col#firstCol{
+   background-color: yellow;
+   column-width: 150px; 
+} 
+
+col#hourCol{
+   column-width: 75px;
+}
+
+thead{
+   background-color:aqua; 
+}
