@@ -13,17 +13,18 @@
 
 table{
    border: 20px groove grey; 
-   border-style: collapse;
+   border-collapse: collapse;
 }
 
 th,td{
    border: 1px solid gray; 
    padding:5px; 
-   align-content: top left;
+   vertical-align: top;
+   text-align: left;
 }
 
 caption{
-   display:top left; 
+   caption-side: top; 
    font-size: 1.5em; 
 }
 
