@@ -1,0 +1,101 @@
+
+Status: PASSED!
+Check: 1
+Test: Below the `body header`, create a table using the `table` element.
+Reason: None
+Timestamp: 2024-12-08 00:27:41.689475
+
+Status: PASSED!
+Check: 2
+Test: Insert a `caption` containing the text February 5, 2021.
+Reason: None
+Timestamp: 2024-12-08 00:27:41.730881
+
+Status: FAILED!
+Check: 3
+Test: Insert a column group containing a column with the id `firstCol` and a column with the id `hourCols` that spans 9 columns.
+Reason: NoSuchElementException occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#firstCol"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x559a84da631a <unknown>
+#1 0x559a848bc6e0 <unknown>
+#2 0x559a8490b3e6 <unknown>
+#3 0x559a8490b681 <unknown>
+#4 0x559a848ffb26 <unknown>
+#5 0x559a8492f48d <unknown>
+#6 0x559a848ffa18 <unknown>
+#7 0x559a8492f62e <unknown>
+#8 0x559a8494ded7 <unknown>
+#9 0x559a8492f203 <unknown>
+#10 0x559a848fdcc0 <unknown>
+#11 0x559a848fec9e <unknown>
+#12 0x559a84d73d0b <unknown>
+#13 0x559a84d77c92 <unknown>
+#14 0x559a84d60b3c <unknown>
+#15 0x559a84d78807 <unknown>
+#16 0x559a84d460df <unknown>
+#17 0x559a84d95578 <unknown>
+#18 0x559a84d95740 <unknown>
+#19 0x559a84da5196 <unknown>
+#20 0x7f726fa94ac3 <unknown>
+
+Error : NoSuchElementException - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#firstCol"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x559a84da631a <unknown>
+#1 0x559a848bc6e0 <unknown>
+#2 0x559a8490b3e6 <unknown>
+#3 0x559a8490b681 <unknown>
+#4 0x559a848ffb26 <unknown>
+#5 0x559a8492f48d <unknown>
+#6 0x559a848ffa18 <unknown>
+#7 0x559a8492f62e <unknown>
+#8 0x559a8494ded7 <unknown>
+#9 0x559a8492f203 <unknown>
+#10 0x559a848fdcc0 <unknown>
+#11 0x559a848fec9e <unknown>
+#12 0x559a84d73d0b <unknown>
+#13 0x559a84d77c92 <unknown>
+#14 0x559a84d60b3c <unknown>
+#15 0x559a84d78807 <unknown>
+#16 0x559a84d460df <unknown>
+#17 0x559a84d95578 <unknown>
+#18 0x559a84d95740 <unknown>
+#19 0x559a84da5196 <unknown>
+#20 0x7f726fa94ac3 <unknown>
+
+Timestamp: 2024-12-08 00:27:42.778519
+
+Status: PASSED!
+Check: 4
+Test: Insert a table head group that contains a single row with `th` elements containing the text Conference Room and the times 8:00am through 4:00pm in one-hour increments.
+Reason: None
+Timestamp: 2024-12-08 00:27:42.849485
+
+Status: FAILED!
+Check: 5
+Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
+Reason: Assertion failed: False is not true : Expected 'Retirement Planning Seminar' in first row
+Error : AssertionError - False is not true : Expected 'Retirement Planning Seminar' in first row
+Timestamp: 2024-12-08 00:27:42.886090
+
+Status: FAILED!
+Check: 6
+Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
+Reason: IndexError occurred: list index out of range
+Error : IndexError - list index out of range
+Timestamp: 2024-12-08 00:27:42.899427
+
+Status: FAILED!
+Check: 7
+Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
+Reason: IndexError occurred: list index out of range
+Error : IndexError - list index out of range
+Timestamp: 2024-12-08 00:27:42.912201
+
+Status: FAILED!
+Check: 8
+Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
+Reason: IndexError occurred: list index out of range
+Error : IndexError - list index out of range
+Timestamp: 2024-12-08 00:27:42.925270
