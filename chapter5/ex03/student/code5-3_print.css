@@ -24,3 +24,11 @@ a{
    text-decoration: none; 
    page-break-inside: avoid;
 }
+
+a::after{
+   content: link [url];
+   display:inline-block; 
+   margin-left: 20px; 
+   word-wrap: break-word;
+
+}
