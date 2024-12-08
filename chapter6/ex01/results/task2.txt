@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Insert a `link` element linking the page to the code6-1_table.css file.
+Reason: None
+Timestamp: 2024-12-08 02:44:19.731030
+
+Status: PASSED!
+Check: 2
+Test: Insert a `link` element linking the page to the code6-1_layout.css file.
+Reason: None
+Timestamp: 2024-12-08 02:44:19.732963
