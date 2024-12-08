@@ -31,7 +31,7 @@ caption{
 
 col#firstCol{
    background-color: yellow;
-   column-width: 150px; 
+   width: 150px; 
 } 
 
 col#hourCol{
