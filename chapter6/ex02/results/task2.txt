@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Insert a `link` element linking the page to the code6-2_table.css file.
 Reason: None
-Timestamp: 2024-12-09 19:43:49.525321
+Timestamp: 2024-12-09 21:01:17.763217
 
 Status: PASSED!
 Check: 2
 Test: Insert a `link` element linking the page to the code6-2_layout.css file.
 Reason: None
-Timestamp: 2024-12-09 19:43:49.526577
+Timestamp: 2024-12-09 21:01:17.768549
