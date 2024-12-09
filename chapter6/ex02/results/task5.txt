@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: For the `table` element add a 20 pixel margin around the table and collapse the table borders.
 Reason: None
-Timestamp: 2024-12-09 21:05:34.108767
+Timestamp: 2024-12-09 21:10:43.868290
 
 Status: PASSED!
 Check: 2
 Test: For the `th` element nested within the table row of the table header row group: Set the font color to white, the background color to red, and the font size to 1.5em. Add a 1 pixel solid gray border around the element.
 Reason: None
-Timestamp: 2024-12-09 21:05:34.146785
+Timestamp: 2024-12-09 21:10:43.904043
 
 Status: PASSED!
 Check: 3
 Test: For every `td` element: Set the `width` and `height` to 50 pixels, the font size to 0.7em, the border to a 1 pixel solid gray, and align the text with the top-left corner of the cell.
 Reason: None
-Timestamp: 2024-12-09 21:05:34.981763
+Timestamp: 2024-12-09 21:10:44.750754
 
 Status: PASSED!
 Check: 6
 Test: For every `td` element of the blank class: Change the background to a linear gradient going toward the bottom-right corner of the element and transitioning from red to gray.
 Reason: None
-Timestamp: 2024-12-09 21:05:35.025782
+Timestamp: 2024-12-09 21:10:44.797745
