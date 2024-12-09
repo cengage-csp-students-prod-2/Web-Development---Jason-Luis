@@ -3,13 +3,13 @@ Status: PASSED!
 Check: 1
 Test: For the `table` element add a 20 pixel margin around the table and collapse the table borders.
 Reason: None
-Timestamp: 2024-12-09 20:53:04.167750
+Timestamp: 2024-12-09 20:57:48.497464
 
 Status: PASSED!
 Check: 2
 Test: For the `th` element nested within the table row of the table header row group: Set the font color to white, the background color to red, and the font size to 1.5em. Add a 1 pixel solid gray border around the element.
 Reason: None
-Timestamp: 2024-12-09 20:53:04.213565
+Timestamp: 2024-12-09 20:57:48.540287
 
 Status: FAILED!
 Check: 3
@@ -22,7 +22,7 @@ Error : AssertionError - '8.96px' != '9px'
 - 8.96px
 + 9px
  : The `td` element does not have a font size of 9px (0.7em).
-Timestamp: 2024-12-09 20:53:04.247471
+Timestamp: 2024-12-09 20:57:48.590153
 
 Status: FAILED!
 Check: 6
@@ -35,4 +35,4 @@ Error : AssertionError - 'none' != 'linear-gradient(to right bottom, rgb(255, 0,
 - none
 + linear-gradient(to right bottom, rgb(255, 0, 0), rgb(128, 128, 128))
  : The `td` element does not have a linear gradient background transitioning from red to gray.
-Timestamp: 2024-12-09 20:53:04.264550
+Timestamp: 2024-12-09 20:57:48.606133
