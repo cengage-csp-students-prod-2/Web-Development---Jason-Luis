@@ -36,30 +36,41 @@ nav.horizontal li{
    width: 16.66%;
 }
 
-nav a{
+nav.horizontal a{
+   display: block;
+   text-align: center;
+}
+
+nav > a{
    display: block;
 }
+
+
 
 
 /* Grid Styles */
 body{
    display: grid;
-   columns: 2fr 1fr; 
-   column-gap: grid 20px;
+   grid-column: 2fr,1fr;
+   grid-column-gap: 20px;
 }
 
-header,footer{
-   grid-column: span 1, span -1; 
-} 
+header{
+   column-span:1/-1; 
+}
 
-section.sub{
+footer{
+   column-span: 1/-1;
+}
+
+section#sub{
    display:grid; 
-   column-width: 1fr 1fr 1fr;
+   grid-template-columns: repeat(3,1fr);
 }
 
 
 /* Specials Styles */
-div{
+div.specials{
    min-height: 400px;
    outline: 1px dashed rgb(71,52,29);
 }
@@ -69,34 +80,41 @@ aside{
    position: relative;
    height:650px; 
    overflow: scroll;
+   position: absolute;
+   width:30%; 
 }
 
 aside.div{
    position: absolute;
-   width: 30%;
+   width:30%; 
 }
 
-aside.award1{
+.award1{
+   position: absolute; 
    top:80px; 
    left:5%; 
 }
 
-aside.award2{
+.award2{
+   position: absolute; 
    top:280px; 
    left:60%; 
+}
+
+.award3{
+   position: absolute;
+   top:400px; 
+   left:20%;
+}
+
+.award4{
+   position: absolute; 
+   top:360px; 
+   left:45%; 
 } 
 
-aside.award3{
-   top:400px; 
-   left:20%; 
-}
-
-aside.award4{
-   top:630px; 
-   left:45%; 
-}
-
-aside.award5{
+.award5{
+   position: absolute;
    top:750px; 
    left:5%; 
 }
