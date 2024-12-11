@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Within the `creditcard` selection list add the options and values.
 Reason: None
-Timestamp: 2024-12-11 05:29:22.132370
+Timestamp: 2024-12-11 05:32:38.252785
 
 Status: PASSED!
 Check: 2
 Test: Make the selection list and `cardname` field required.
 Reason: None
-Timestamp: 2024-12-11 05:29:22.155183
+Timestamp: 2024-12-11 05:32:38.274587

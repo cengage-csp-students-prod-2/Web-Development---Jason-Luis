@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Within the `cardmonth` selection list add options for each month.
 Reason: None
-Timestamp: 2024-12-11 05:29:22.494710
+Timestamp: 2024-12-11 05:32:38.599395
 
 Status: PASSED!
 Check: 2
 Test: Make the selection list required.
 Reason: None
-Timestamp: 2024-12-11 05:29:22.503058
+Timestamp: 2024-12-11 05:32:38.607801
