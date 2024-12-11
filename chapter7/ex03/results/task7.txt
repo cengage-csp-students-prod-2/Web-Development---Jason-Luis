@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Make the `cardcsc` field required with a maximum character length of 3.
-Reason: Assertion failed: None != '3' : The `cardcsc` field should have a maximum character length of 3.
-Error : AssertionError - None != '3' : The `cardcsc` field should have a maximum character length of 3.
-Timestamp: 2024-12-11 05:22:44.724165
+Reason: None
+Timestamp: 2024-12-11 05:24:53.433105
