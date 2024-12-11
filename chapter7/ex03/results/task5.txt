@@ -2,20 +2,20 @@
 Status: FAILED!
 Check: 1
 Test: Within the `cardmonth` selection list add options for each month.
-Reason: Assertion failed: 'January' != 'January (01)'
-- January
-+ January (01)
-?        +++++
- : Expected 'January (01)' as the second option, found: January
-Error : AssertionError - 'January' != 'January (01)'
-- January
-+ January (01)
-?        +++++
- : Expected 'January (01)' as the second option, found: January
-Timestamp: 2024-12-11 05:14:34.619873
+Reason: Assertion failed: 'September(09)' != 'September (09)'
+- September(09)
++ September (09)
+?          +
+ : Expected 'September (09)' as the tenth option, found: September(09)
+Error : AssertionError - 'September(09)' != 'September (09)'
+- September(09)
++ September (09)
+?          +
+ : Expected 'September (09)' as the tenth option, found: September(09)
+Timestamp: 2024-12-11 05:16:48.835630
 
 Status: PASSED!
 Check: 2
 Test: Make the selection list required.
 Reason: None
-Timestamp: 2024-12-11 05:14:34.629539
+Timestamp: 2024-12-11 05:16:48.845675
