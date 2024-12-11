@@ -3,11 +3,11 @@ Status: PASSED!
 Check: 1
 Test: Within the `creditcard` selection list add the options and values.
 Reason: None
-Timestamp: 2024-12-11 05:05:12.126821
+Timestamp: 2024-12-11 05:06:37.792995
 
 Status: FAILED!
 Check: 2
 Test: Make the selection list and `cardname` field required.
-Reason: Assertion failed: None is not true : The selection list should be required.
-Error : AssertionError - None is not true : The selection list should be required.
-Timestamp: 2024-12-11 05:05:12.136496
+Reason: Assertion failed: None is not true : The `cardname` field should be required.
+Error : AssertionError - None is not true : The `cardname` field should be required.
+Timestamp: 2024-12-11 05:06:37.819794
