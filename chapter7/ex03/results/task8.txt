@@ -3,7 +3,7 @@ Status: PASSED!
 Check: 1
 Test: Display any input or select element that has the focus with a 'yellow' background color.
 Reason: None
-Timestamp: 2024-12-11 05:26:44.854923
+Timestamp: 2024-12-11 05:29:05.388032
 
 Status: FAILED!
 Check: 2
@@ -20,4 +20,4 @@ Error : AssertionError - 'rgba(0, 0, 0, 1)' != 'rgba(255, 0, 0, 1)'
 + rgba(255, 0, 0, 1)
 ?      +++++
  : The font color should be 'red' when the data is invalid.
-Timestamp: 2024-12-11 05:26:45.068344
+Timestamp: 2024-12-11 05:29:05.591202
