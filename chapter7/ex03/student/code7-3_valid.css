@@ -16,7 +16,7 @@ input, select{
 } 
 
 input.invalid{
-   color:red; 
+   color:rgba(255,0,0,1); 
    border: red; 
    box-shadow: 0px 0px 5px red;  
 }
