@@ -5,7 +5,7 @@
    Tutorial 5
    Review Assignment
    
-   Author:   
+   Author:Jason Luis   
    Date:     
    
    Filename: tf_print2.css
@@ -18,25 +18,77 @@
 
 
 /* Hidden Objects */
-
+nav, header > body > h1, section.left, body > footer{
+   display: hide;
+}
 
 
 /* Page Box Styles */
+@page{
+   size:8.5in 11in; 
+   margin:0.5in; 
 
-
+}
 
 /* Header Styles */
-
+img.logo{
+   display:block; 
+   width: 100%; 
+}
 
 
 /* Typography Styles */
+article{
+   font: size 24point; 
+   line-height: 26point; 
+} 
 
+aside{
+   background-color: rgb(211,211,211); 
+   margin-top: 0.3in; 
+} 
+
+aside > h1{
+   font-size: 18point;
+   line-height: 20point;
+} 
+
+aside > img{
+   width:0.8in;
+} 
+
+p{
+   font-size:12point; 
+   margin-top:0.1in; 
+   margin-bottom:0.1in; 
+}
 
 
 /* Hypertext Styles */
+a{
+   color:black; 
+   text-decoration: none; 
+   
+}
 
+a::after{
+   content: "("attr(href)")"; 
+   font-weight:bold; 
+   word-wrap: break-word;
+}
 
 
 
 /* Page Break Styles */
+aside{
+   page-break-after: auto;
+} 
 
+ol,ul,img{
+   page-break-inside:avoid;
+} 
+
+p{
+   widows: 3;
+   orphans: 3;
+}

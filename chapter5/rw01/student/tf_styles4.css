@@ -4,7 +4,7 @@
    Tutorial 5
    Review Assignment
    
-   Author:   
+   Author:Jason Luis   
    Date:     
       
    Filename: tf_styles4.css
@@ -22,9 +22,44 @@
 
 
 /* General Flex Styles */
+body{
+   display:flex; 
+   flex-flow: wrap;
+} 
 
+.left{
+   flex-grow: 1;
+   flex-shrink: 8;
+   flex-basis: 130px;
+}
 
+.right{
+   flex-grow: 8;
+   flex-shrink: 1;
+   flex-basis: 351px;
+}
 
+.tips{
+   display:flexbox; 
+   flex-flow: row wrap; 
+} 
+
+article{
+   flex-grow: 2;
+   flex-shrink:1; 
+   flex-basis: 351px;
+}
+
+aside{
+   flex-grow: 1;
+   flex-shrink: 2;
+   flex-basis: 250px;
+} 
+
+nav.horizontal ul{
+   display: flex;
+   flex-flow: column wrap;
+}
 
 
 
@@ -32,7 +67,33 @@
 	Mobile Devices: 0 to 480px 
    ===============================
 */
-	
+	@media only screen and (max-width:480px){
+      nav.vertical ul{
+         display:flex; 
+         flex-flow: column wrap; 
+         height:240px; 
+      }
+
+      .left{
+         order:99; 
+      }
+
+      body > footer{
+         order:100; 
+      } 
+
+      a.navicon{
+         display: block;
+      }
+
+      nav.horizontal ul{
+         display: none;
+      }
+
+      a.navicon:hover+ul, nav.horizontal ul:hover{
+         display: block;
+      }
+   }
 
 
 
@@ -41,6 +102,15 @@
 	Tablet and Desktop Devices: 481px or more 
    ============================================
 */
+@media only screen and (width:481px){
+   nav.horizontal{
+      display: flex; 
+      flex-flow: column wrap; 
+   }
 
+   nav.horizontal ul{
+      height:160px; 
+   }
+}
 
 
