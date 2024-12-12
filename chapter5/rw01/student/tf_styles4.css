@@ -40,7 +40,7 @@ body{
 }
 
 .tips{
-   display:flexbox; 
+   display:flex; 
    flex-flow: row wrap; 
 } 
 
