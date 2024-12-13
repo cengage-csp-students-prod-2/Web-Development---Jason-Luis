@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Enter your name (First + Last) into the `Author:` field of code1-1.html file.
+Reason: 'Author: {YOUR NAME}' was found in the program output.None
+Timestamp: 2024-12-13 06:40:31.410832
+
+Status: PASSED!
+Check: 2
+Test: "Date" added to comment section of the file code1-1.html in the format MM/DD/YYYY
+Reason: 'Date: {DATE}' was found in the program output.None
+Timestamp: 2024-12-13 06:40:31.411351
