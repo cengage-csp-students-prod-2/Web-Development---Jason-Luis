@@ -4,22 +4,22 @@ Check: 1
 Test: Create the cue in the captions8-1.vtt file.
 Reason: Unable to find 'Caption' in the program.
 Error : str - AssertionError
-Timestamp: 2024-12-13 06:41:18.202142
+Timestamp: 2024-12-13 07:08:03.988430
 
 Status: PASSED!
 Check: 1
 Test: Create the cue in the captions8-1.vtt file.
 Reason: 'A High Ollie' was found in the program output.None
-Timestamp: 2024-12-13 06:41:18.202406
+Timestamp: 2024-12-13 07:08:03.988704
 
 Status: PASSED!
 Check: 3
 Test: Create the cue in the captions8-1.vtt file.
 Reason: '00:03.000' was found in the program output.None
-Timestamp: 2024-12-13 06:41:18.202576
+Timestamp: 2024-12-13 07:08:03.988874
 
 Status: PASSED!
 Check: 4
 Test: Create the cue in the captions8-1.vtt file.
 Reason: '00:06.000' was found in the program output.None
-Timestamp: 2024-12-13 06:41:18.202734
+Timestamp: 2024-12-13 07:08:03.989057
