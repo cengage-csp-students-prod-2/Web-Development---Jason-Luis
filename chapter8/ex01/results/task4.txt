@@ -2,38 +2,24 @@
 Status: FAILED!
 Check: 1
 Test: Add a style rule for the `video` element that displays the video player as a block element.
-Reason: Assertion failed: 'inline' != 'block'
-- inline
+Reason: Assertion failed: 'inline-block' != 'block'
+- inline-block
 + block
- : Expected display to be block, found inline
-Error : AssertionError - 'inline' != 'block'
-- inline
+ : Expected display to be block, found inline-block
+Error : AssertionError - 'inline-block' != 'block'
+- inline-block
 + block
- : Expected display to be block, found inline
-Timestamp: 2024-12-13 06:41:18.177006
+ : Expected display to be block, found inline-block
+Timestamp: 2024-12-13 07:05:07.332771
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Add a style rule for the `video` element that sets the `width` of the player to 75%.
-Reason: Assertion failed: '4096px' != '720px'
-- 4096px
-+ 720px
- : Expected width to be 720px (75%), found 4096px
-Error : AssertionError - '4096px' != '720px'
-- 4096px
-+ 720px
- : Expected width to be 720px (75%), found 4096px
-Timestamp: 2024-12-13 06:41:18.189798
+Reason: None
+Timestamp: 2024-12-13 07:05:07.357346
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Add a style rule for the `video` element that sets the top/bottom margin to 10 pixels and the left/right margins to auto.
-Reason: Assertion failed: '0px' != '10px 0px'
-- 0px
-+ 10px 0px
- : Expected margin to be 10px 0px (auto), found 0px
-Error : AssertionError - '0px' != '10px 0px'
-- 0px
-+ 10px 0px
- : Expected margin to be 10px 0px (auto), found 0px
-Timestamp: 2024-12-13 06:41:18.201772
+Reason: None
+Timestamp: 2024-12-13 07:05:07.371981
