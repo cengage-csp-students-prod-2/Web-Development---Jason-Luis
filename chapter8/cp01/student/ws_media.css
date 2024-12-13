@@ -6,18 +6,38 @@
    Case Problem 1
 
    Rhetoric in the United States Styles for Media
-   Author: 
-   Date:   
+   Author:Jason Luis 
+   Date:12/13/2024   
 
    Filename: ws_media.css
 
 */
 
 /* VideoPlayer Styles */
+video{
+   display: block;
+   width:90%; 
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left: auto;
+   margin-right: auto;
+}
 
+@media screen and (min-width: 521px) {
+   video{
+      width: 360px;
+      float: right;
+      margin:10px; 
+   }
+}
 
 
 
 /* Track Styles */
-
+caption{
+   font-size: 1.3em;
+   font-family: sans-serif;
+   color:rgb(221,128,160); 
+   background-color:rgba(225,225,225,0.8);
+}
 
