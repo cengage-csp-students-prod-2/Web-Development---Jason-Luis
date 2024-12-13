@@ -7,8 +7,8 @@
       Case Problem 2
 
       Spice Bowl Payment Form
-      Author: 
-      Date:   
+      Author:Jason Luis
+      Date:12/09/2024  
 
       Filename:   sb_payment.html
 
@@ -19,12 +19,18 @@
    <title>Spice Bowl Payment Form</title>
    <link href="sb_reset.css" rel="stylesheet" />
    <link href="sb_styles.css" rel="stylesheet" />
+   <link href="sb_forms.css" rel="stylesheet"/> 
+   <link href="sb_validate.css" rel="stylesheet"/>
+   <script src="sb_script.js"></script>
 </head>
 
 <body>
    <header>
       <img src="sb_logo.png" alt="The Spice Bowl" />
-
+      <form id="login" action="http://www.example.com/sb/login" method="post">
+         <input name="username" id="userBox" placeholder="username" type="text">
+         <input name="password" id="pwdBox" placeholder="password" type="text">
+      </form>
       <nav> <a id="navicon" href="#"><img src="sb_navicon.png" alt="" /></a>
          <ul>
             <li><a href="#">Spices</a></li>
@@ -38,7 +44,42 @@
    
    <section>
       <h1>Payment Form</h1>
-      
+      <form action="http://www.example.com/sb/payment" method="post" id="payment">
+         <fieldset id="billing">
+            <legend>Billing Information (required)</legend>
+            <label name="fName" id="firstBox" type="text" required>First Name</label>
+            <label name="lName" id="lastBox" type="text" required>Last Name</label>
+            <label name="street " id="streetBox" type="text" required>Street Address</label>
+            <label name="street2" id="streetBox2" type="text">Street Address (2)</label>
+            <label name="city" id="cityBox" type="text"required>City</label>
+            <label name="state" id="stateBox" type="text" id="stateList" value="United States" required>State</label>
+            <label name="zip" id="zipBox" type="text" pattern="^\d{5}(-\d{4})?$">ZIP/Postal Code</label>
+            <label name="country" id="countryBox" type="text" required>Country</label>
+            <label name="phone" id="phoneBox" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required>Phone</label>
+         </fieldset>
+         <fieldset id="creditCard">
+            <legend>Credit Card (required)</legend>
+            <fieldset>
+               <label class="cardLabel">
+                  <option id="cCard" value="amex" required></option>
+                  <img src="sb_amex.png" alt="">
+               </label>
+               <label class="cardLabel">
+                  <option id="cCard" value="discover"required></option>
+                  <img src="sb_discover.png" alt="">
+               </label>
+               <label class="cardLabel">
+                  <option id="cCard" value="master" required></option>
+                  <img src="sb_master.png" alt="">
+               </label>
+               <label class="cardLabel">
+                  <option id="cCard" value="visa" required></option>
+                  <img src="sb_visa.png" alt="">
+               </label>
+            </fieldset>
+         </fieldset>
+         *<label id="cardBox" name="cardNumber" type="text" required>Credit Card Number</label>
+      </form>
       <aside>
          <h1>Menu Ideas</h1>
          <h2>Salt-Roasted Pecans</h2>
