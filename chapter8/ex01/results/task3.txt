@@ -3,13 +3,13 @@ Status: PASSED!
 Check: 1
 Test: Below the ordered list insert a `video` element with the controls attribute to the `video` element to show player controls.
 Reason: None
-Timestamp: 2024-12-13 06:48:30.680277
+Timestamp: 2024-12-13 07:16:31.168197
 
 Status: PASSED!
 Check: 2
 Test: Add the source files ollie.mp4 and ollie.webm to the video element. Include the `mime-type` for both video files.
 Reason: None
-Timestamp: 2024-12-13 06:48:30.742892
+Timestamp: 2024-12-13 07:16:31.200805
 
 Status: FAILED!
 Check: 3
@@ -17,51 +17,51 @@ Test: Add a track using the contents of the captions8-1.vtt file. Set the value 
 Reason: NoSuchElementException occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"track"}
   (Session info: chrome=131.0.6778.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
-#0 0x55e36915331a <unknown>
-#1 0x55e368c696e0 <unknown>
-#2 0x55e368cb83e6 <unknown>
-#3 0x55e368cb8681 <unknown>
-#4 0x55e368cacb26 <unknown>
-#5 0x55e368cdc48d <unknown>
-#6 0x55e368caca18 <unknown>
-#7 0x55e368cdc62e <unknown>
-#8 0x55e368cfaed7 <unknown>
-#9 0x55e368cdc203 <unknown>
-#10 0x55e368caacc0 <unknown>
-#11 0x55e368cabc9e <unknown>
-#12 0x55e369120d0b <unknown>
-#13 0x55e369124c92 <unknown>
-#14 0x55e36910db3c <unknown>
-#15 0x55e369125807 <unknown>
-#16 0x55e3690f30df <unknown>
-#17 0x55e369142578 <unknown>
-#18 0x55e369142740 <unknown>
-#19 0x55e369152196 <unknown>
-#20 0x7f4eeba94ac3 <unknown>
+#0 0x55c49993931a <unknown>
+#1 0x55c49944f6e0 <unknown>
+#2 0x55c49949e3e6 <unknown>
+#3 0x55c49949e681 <unknown>
+#4 0x55c499492b26 <unknown>
+#5 0x55c4994c248d <unknown>
+#6 0x55c499492a18 <unknown>
+#7 0x55c4994c262e <unknown>
+#8 0x55c4994e0ed7 <unknown>
+#9 0x55c4994c2203 <unknown>
+#10 0x55c499490cc0 <unknown>
+#11 0x55c499491c9e <unknown>
+#12 0x55c499906d0b <unknown>
+#13 0x55c49990ac92 <unknown>
+#14 0x55c4998f3b3c <unknown>
+#15 0x55c49990b807 <unknown>
+#16 0x55c4998d90df <unknown>
+#17 0x55c499928578 <unknown>
+#18 0x55c499928740 <unknown>
+#19 0x55c499938196 <unknown>
+#20 0x7f76fc894ac3 <unknown>
 
 Error : NoSuchElementException - Message: no such element: Unable to locate element: {"method":"css selector","selector":"track"}
   (Session info: chrome=131.0.6778.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
-#0 0x55e36915331a <unknown>
-#1 0x55e368c696e0 <unknown>
-#2 0x55e368cb83e6 <unknown>
-#3 0x55e368cb8681 <unknown>
-#4 0x55e368cacb26 <unknown>
-#5 0x55e368cdc48d <unknown>
-#6 0x55e368caca18 <unknown>
-#7 0x55e368cdc62e <unknown>
-#8 0x55e368cfaed7 <unknown>
-#9 0x55e368cdc203 <unknown>
-#10 0x55e368caacc0 <unknown>
-#11 0x55e368cabc9e <unknown>
-#12 0x55e369120d0b <unknown>
-#13 0x55e369124c92 <unknown>
-#14 0x55e36910db3c <unknown>
-#15 0x55e369125807 <unknown>
-#16 0x55e3690f30df <unknown>
-#17 0x55e369142578 <unknown>
-#18 0x55e369142740 <unknown>
-#19 0x55e369152196 <unknown>
-#20 0x7f4eeba94ac3 <unknown>
+#0 0x55c49993931a <unknown>
+#1 0x55c49944f6e0 <unknown>
+#2 0x55c49949e3e6 <unknown>
+#3 0x55c49949e681 <unknown>
+#4 0x55c499492b26 <unknown>
+#5 0x55c4994c248d <unknown>
+#6 0x55c499492a18 <unknown>
+#7 0x55c4994c262e <unknown>
+#8 0x55c4994e0ed7 <unknown>
+#9 0x55c4994c2203 <unknown>
+#10 0x55c499490cc0 <unknown>
+#11 0x55c499491c9e <unknown>
+#12 0x55c499906d0b <unknown>
+#13 0x55c49990ac92 <unknown>
+#14 0x55c4998f3b3c <unknown>
+#15 0x55c49990b807 <unknown>
+#16 0x55c4998d90df <unknown>
+#17 0x55c499928578 <unknown>
+#18 0x55c499928740 <unknown>
+#19 0x55c499938196 <unknown>
+#20 0x7f76fc894ac3 <unknown>
 
-Timestamp: 2024-12-13 06:48:31.788570
+Timestamp: 2024-12-13 07:16:32.219756
