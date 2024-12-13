@@ -5,9 +5,17 @@
    Tutorial 8
    Coding Challenge 1
 
-   Author:   
-   Date:     
+   Author:Jason Luis   
+   Date:12/12/2024     
    Filename: code8-1_video.css
 
 */
 
+video{
+   display:block; 
+   width:75%; 
+   margin-top:10px; 
+   margin-bottom: 10px;
+   margin-left: auto;
+   margin-right: auto;
+}
