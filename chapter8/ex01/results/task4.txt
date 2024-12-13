@@ -1,25 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Add a style rule for the `video` element that displays the video player as a block element.
-Reason: Assertion failed: 'inline-block' != 'block'
-- inline-block
-+ block
- : Expected display to be block, found inline-block
-Error : AssertionError - 'inline-block' != 'block'
-- inline-block
-+ block
- : Expected display to be block, found inline-block
-Timestamp: 2024-12-13 07:05:07.332771
+Reason: None
+Timestamp: 2024-12-13 07:06:54.399741
 
 Status: PASSED!
 Check: 2
 Test: Add a style rule for the `video` element that sets the `width` of the player to 75%.
 Reason: None
-Timestamp: 2024-12-13 07:05:07.357346
+Timestamp: 2024-12-13 07:06:54.417372
 
 Status: PASSED!
 Check: 3
 Test: Add a style rule for the `video` element that sets the top/bottom margin to 10 pixels and the left/right margins to auto.
 Reason: None
-Timestamp: 2024-12-13 07:05:07.371981
+Timestamp: 2024-12-13 07:06:54.429157
