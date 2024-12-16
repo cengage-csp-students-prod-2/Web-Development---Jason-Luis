@@ -74,7 +74,7 @@ figure:hover{
 figure:hover img{
    width:100%; 
    filter: drop-shadow(10px 10px 20px black) grayscale(0);
-   transition: 2s filter
+   transition: filter 2s; 
 
 }
 
@@ -85,5 +85,5 @@ figure:hover figcaption{
 
 .fig1:hover, .fig2:hover, .fig3:hover, .fig4:hover, .fig5:hover, .fig6:hover{
    transform: rotate(0deg);
-   transition: all figure 2s;
+   transition: all 2s;
 }
