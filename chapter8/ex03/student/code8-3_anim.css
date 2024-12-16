@@ -77,38 +77,32 @@ div#cube img {
 	}
 }
 
-#faceFront{
-	animation-name: moveFront;
+#faceFront .moveFront{
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
 } 
 
-#faceBack{
-	animation-name: moveBack;
+#faceBack .moveBack{
 	animation-duration: 3s;
 	animation-fill-mode: backwards; 
 }
 
-#faceBottom{
-	animation-name: moveBottom; 
+#faceBottom{ .moveBottom{
 	animation-duration: 3s;
 	animation-fill-mode: bottom;
 }
 
-#faceLeft{
-	animation-name: moveLeft;
+#faceLeft .moveLeft{
 	animation-duration: 3s;
 	animation-fill-mode: left;
 }
 
-#faceTop{
-	animation-name: moveTop;
+#faceTop .moveTop{
 	animation-duration: 3s;
 	animation-fill-mode: top;
 } 
 
-#faceRight{
-	animation-name: moveRight;
+#faceRight .moveRight{
 	animation-duration: 3s;
 	animation-fill-mode: right;
 }
