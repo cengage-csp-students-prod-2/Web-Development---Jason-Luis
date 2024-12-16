@@ -112,5 +112,8 @@ div#cube img {
 }
 
 #cube{
-	animation: 3s linear 3s infinite;
+	animation-name: spinCube;
+	animation-duration: 3s;
+	animation-delay: 3s;
+	animation-timing-function: linear;
 }
