@@ -77,6 +77,10 @@ div#cube img {
 	}
 }
 
-.moveFront{
-	
+.faceFront {
+	animation: moveFront 3s forwards;
+}
+
+.cube{
+	animation: 3s linear 3s infinite;
 }
