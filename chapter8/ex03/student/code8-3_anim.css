@@ -98,19 +98,16 @@ div#cube img {
 #faceLeft{
 	animation-name: moveLeft;
 	animation-duration: 3s;
-	animation-fill-mode: none;
 }
 
 #faceTop{
 	animation-name: moveTop;
 	animation-duration: 3s;
-	animation-fill-mode: none;
 } 
 
 #faceRight{
 	animation-name: moveRight;
 	animation-duration: 3s;
-	animation-fill-mode: none;
 }
 
 #cube .spinCube{
