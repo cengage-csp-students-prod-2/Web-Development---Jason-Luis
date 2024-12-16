@@ -82,7 +82,9 @@ div#cube img {
 } 
 
 #faceBack img{
-	animation: moveBack 3s backwards; 
+	animation: moveBack;
+	animation-duration: 3s;
+	animation-fill-mode: forwards; 
 }
 
 #faceBottom img{
