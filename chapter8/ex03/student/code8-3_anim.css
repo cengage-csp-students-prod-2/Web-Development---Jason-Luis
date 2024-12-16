@@ -77,7 +77,8 @@ div#cube img {
 	}
 }
 
-#faceFront .moveFront{
+#faceFront .moveFront {
+	animation-name: moveFront;
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
 } 
