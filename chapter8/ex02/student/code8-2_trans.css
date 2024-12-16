@@ -74,15 +74,15 @@ figure:hover{
 figure:hover img{
    width:100%; 
    filter: drop-shadow(10px 10px 20px black) grayscale(0);
-   transition: filter 2s;
+   transition: filter 2s ease;
 }
 
 figure:hover figcaption{
    font-size:1.2em; 
-   transition: font-size 2s ease 0s;
+   transition: font-size 2s ease;
 }
 
 .fig1:hover, .fig2:hover, .fig3:hover, .fig4:hover, .fig5:hover, .fig6:hover{
    transform: rotate(0deg);
-   transition: all 2s;
+   transition: all 2s ease-in-out;
 }
