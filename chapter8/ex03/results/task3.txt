@@ -3,17 +3,16 @@ Status: PASSED!
 Check: 1
 Test: 
 Reason: None
-Timestamp: 2024-12-16 08:34:55.134065
+Timestamp: 2024-12-16 08:38:44.284474
 
 Status: PASSED!
 Check: 2
 Test: 
 Reason: None
-Timestamp: 2024-12-16 08:34:55.134233
+Timestamp: 2024-12-16 08:38:44.284617
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: 
-Reason: Assertion failed: Unable to find rotateX(384deg) and rotateY(400deg)
-Error : AssertionError - Unable to find rotateX(384deg) and rotateY(400deg)
-Timestamp: 2024-12-16 08:34:55.134366
+Reason: None
+Timestamp: 2024-12-16 08:38:44.284721
