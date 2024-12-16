@@ -33,16 +33,17 @@ img{
 }
 /* CSS Grid Styles */
 body{
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   display:grid;
+   grid-template-columns: repeat(4,1fr);
 }
 
-.logo{
+#logo{
    grid-column: span 3;
    width:100%; 
 }
 
-nav,footer{
-   grid-column: span 4;
+nav.horizontal,footer{
+   grid-column: 1/ span 4;
 }
 
 aside{
@@ -53,20 +54,17 @@ aside{
 
 
 /* Horizontal Navigation List Styles */
-.horizontal li{
+#horizontal li{
    display:block; 
    width:12.5%; 
-   float:left; 
+   float: left; 
 }
 
 
 /* Section Styles */
 section img{
    width:50%; 
-   margin-top:0; 
-   margin-bottom: 0;
-   margin-left: auto;
-   margin-right: auto;
+  margin: 0 auto;
 }
 
 section p{
