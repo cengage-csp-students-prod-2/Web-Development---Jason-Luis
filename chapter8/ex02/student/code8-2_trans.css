@@ -73,7 +73,12 @@ figure:hover{
 
 figure:hover img{
    width:100%; 
-   filter:drop-shadow(10px 10px 20px black) and grayscale(0);
-   transition: filter 2s;
+   filter:drop-shadow(3px 3px 10px black) and grayscale(1);
+   transition: filter 2s ease 0s;
 
+}
+
+figure:hover figcaption{
+   font-size:1.2em; 
+   transition: font-size 2s;
 }
