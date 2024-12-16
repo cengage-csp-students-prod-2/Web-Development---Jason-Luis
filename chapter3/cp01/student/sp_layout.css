@@ -23,6 +23,9 @@ body{
    width: 95%;
    position: center;
    min-height: 100%; 
+   max-width: 960px;
+   min-width:640px;
+   margin: 0 auto; 
 }
 
 img{
@@ -30,21 +33,69 @@ img{
 }
 /* CSS Grid Styles */
 body{
-   
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.logo{
+   grid-column: span 3;
+   width:100%; 
+}
+
+nav,footer{
+   grid-column: span 4;
+}
+
+aside{
+   grid-column: span 2;
 }
 
 
 
 
-
 /* Horizontal Navigation List Styles */
-
+.horizontal li{
+   display:block; 
+   width:12.5%; 
+   float:left; 
+}
 
 
 /* Section Styles */
+section img{
+   width:50%; 
+   margin-top:0; 
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
 
-
+section p{
+   width:70%; 
+   margin-top:0; 
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 
 /* Customer Comment Styles */
+aside{
+   width:75%;
+   padding-bottom: 30px;
+} 
 
+aside:nth-of-type(6){
+   columns: 2;
+   justify-self: end right;
+}
+
+aside > img{
+   width:20%; 
+   float:left; 
+}
+
+aside > p{
+   float:left; 
+   width:75%; 
+   margin-left: 5%;
+}
