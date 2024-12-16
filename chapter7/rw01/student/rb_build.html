@@ -19,6 +19,8 @@
    <title>Red Ball Pizza Build a Pizza</title>
    <link href="rb_base.css" rel="stylesheet" />
    <link href="rb_styles2.css" rel="stylesheet" />
+   <link href="rb_forms2.css" rel="stylesheet"/> 
+   <script src="rb_formsubmit2.js"></script>
 </head>
 
 <body>
@@ -42,7 +44,123 @@
          by selecting from the ingredients below. You can divide your pizza
          into two regions to give your friends a wide choice of toppings
          and flavors.</p>
-         
+         <form action="http://www.example.com/redball/build" method="post">
+            <div>
+               <label for="quantityBox">Quantity</label>
+               <input id="quantityBox" name="pizzaQuantity" value="1" max="10" min="1">
+            </div>
+            <div>
+               <img src="rb_sizes.png">
+               <label for="sizeBox">Pizza Size</label>
+               <input id="sizeBox" name="pizzaSize" value="14" min="10" max="16" step="2" type="range">
+            </div>
+            <div>
+               <label for="crustBox">Pizza Crust</label>
+               <select for="pizzaCrust" id="crustBox">
+                  <option value="thin">Thin</option>
+                  <option value="thick">Thick</option>
+                  <option value="stuffed">Stuffed</option><
+                  <option value="pan">Pan</option>
+               </select>
+            </div>
+            <div>
+               <input type="checkbox" id="cheeseBox" name="doubleCheese"> 
+               <label for="cheeseBox">Double Cheese</label>
+               <input type="checkbox" id="sauceBox" name="doubleSauce">
+               <label for="sauceBox">Double Sauce</label>
+            </div>
+            <fieldset>
+               <legend>Meat Toppings</legend>
+               <div>
+                  <label>Location</label>
+                  <img src="rb_full.png" alt="Full"> 
+                  <img src="rb_left.png" alt="Left"> 
+                  <img src="rb_right.png" alt="Right">
+                  <img src="rb_none.png" alt="None">
+               </div>
+               <div>
+                  <label>Pepperoni</label>
+                  <option value="full"></option>
+                  <option value="left"></option>
+                  <option value="right"></option>
+                  <option value="none" checked="checked"></option>
+               </div>
+               <div>
+                  <label>Ham</label>
+                  <option value="full"></option>
+                  <option value="left"></option>
+                  <option value="right"></option>
+                  <option value="none" checked="checked"></option>
+               </div>
+               <div>
+                  <label>Pork</label>
+                  <option value="full"></option>
+                  <option value="left"></option>
+                  <option value="right"></option>
+                  <option value="none" checked="checked"></option>
+               </div>
+               <div>
+                  <label>Sausage</label>
+                  <option value="full"></option>
+                  <option value="left"></option>
+                  <option value="right"></option>
+                  <option value="none" checked="checked"></option>
+               </div>
+               <div>
+                  <label>Chicken</label>
+                  <option value="full"></option>
+                  <option value="left"></option>
+                  <option value="right"></option>
+                  <option value="none" checked="checked"></option>
+               </div>
+            </fieldset>
+            <fieldset>
+               <legend>Vegetable Toppings</legend>
+               <div>
+                  <label>Location</label>
+                  <img src="rb_full.png" alt="Full"> 
+                  <img src="rb_left.png" alt="Left"> 
+                  <img src="rb_right.png" alt="Right">
+                  <img src="rb_none.png" alt="None">
+               </div>
+               <div>
+                  <label>Mushrooms</label>
+                  <option value="full"></option>
+                  <option value="left"></option>
+                  <option value="right"></option>
+                  <option value="none" checked="checked"></option>
+               </div>
+               <div>
+                  <label>Green Peppers</label>
+                  <option value="full"></option>
+                  <option value="left"></option>
+                  <option value="right"></option>
+                  <option value="none" checked="checked"></option>
+               </div>
+               <div>
+                  <label>Onions</label>
+                  <option value="full"></option>
+                  <option value="left"></option>
+                  <option value="right"></option>
+                  <option value="none" checked="checked"></option>
+               </div>
+               <div>
+                  <label>Tomatoes</label>
+                  <option value="full"></option>
+                  <option value="left"></option>
+                  <option value="right"></option>
+                  <option value="none" checked="checked"></option>
+               </div>
+               <div>
+                  <label>Jalapenos</label>
+                  <option value="full"></option>
+                  <option value="left"></option>
+                  <option value="right"></option>
+                  <option value="none" checked="checked"></option>
+               </div>
+            </fieldset>
+         </form>
+         <div type="submit" value="Add to your Order"></div>
    </section>
 
    <footer>

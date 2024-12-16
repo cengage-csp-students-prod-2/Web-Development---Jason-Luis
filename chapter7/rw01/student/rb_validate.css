@@ -4,8 +4,8 @@
    Review Assignment
 
    Customer Information Validation Style Sheet
-   Author: 
-   Date:   
+   Author:Jason Luis 
+   Date:12/06/2024   
 
    Filename: rb_validate.css
 
@@ -13,4 +13,16 @@
 
 
 /* Validation Styles */
+input:focus, select:focus, textarea:focus{
+   background-color: rgb(255, 255, 180);
+}
 
+.nameBox:focus:valid, .phoneBox:focus:valid{
+   background-color: rgb(220,255,220);
+   background-image: url(rb_okay.png) right no-repeat;
+}
+
+.nameBox:focus:invalid, .phoneBox:focus:invalid{
+   background-color:rgb(255,230,230); 
+   background-image: url(rb_warning.png) right no-repeat;
+}
