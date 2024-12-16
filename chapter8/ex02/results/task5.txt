@@ -12,4 +12,4 @@ Error : AssertionError - 'font-size 2s' != 'font-size 2s ease 0s'
 + font-size 2s ease 0s
 ?             ++++++++
  : Expected transition to be font-size 2s ease 0s, found font-size 2s
-Timestamp: 2024-12-16 07:37:21.574077
+Timestamp: 2024-12-16 07:40:13.773023
