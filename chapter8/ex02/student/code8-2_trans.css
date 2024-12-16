@@ -12,7 +12,7 @@
 */
 
 
-figure {
+figure:hover {
    display: block;
    width: 150px;
    position: absolute;
@@ -20,14 +20,14 @@ figure {
    cursor: pointer;
 }
 
-figure img {
+figure:hover img {
    display: block;
    width: 100%;
    filter: drop-shadow(3px 3px 10px black) grayscale(1);
    width: 150px;
 }
 
-figcaption {
+figure:hover figcaption {
    font-size: 0px;
    text-align: center;
    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
