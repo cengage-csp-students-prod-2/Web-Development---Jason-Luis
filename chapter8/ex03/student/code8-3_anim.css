@@ -77,17 +77,17 @@ div#cube img {
 	}
 }
 
-#faceFront .moveFront{
+#faceFront .moveFront {
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
 } 
 
-#faceBack .moveBack{
+#faceBack .moveBack {
 	animation-duration: 3s;
 	animation-fill-mode: backwards; 
 }
 
-#faceBottom{ .moveBottom{
+#faceBottom .moveBottom {
 	animation-duration: 3s;
 	animation-fill-mode: bottom;
 }
@@ -107,8 +107,7 @@ div#cube img {
 	animation-fill-mode: right;
 }
 
-#cube{
-	animation-name: spinCube;
+#cube .spinCube{
 	animation-duration: 3s;
 	animation-delay: 3s;
 	animation-timing-function: linear;
