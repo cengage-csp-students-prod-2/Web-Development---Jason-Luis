@@ -77,30 +77,30 @@ div#cube img {
 	}
 }
 
-.faceFront img{
+#faceFront img{
 	animation: moveFront 3s forwards;
 } 
 
-.faceBack img{
+#faceBack img{
 	animation: moveBack 3s backwards; 
 }
 
-.faceBottom img{
+#faceBottom img{
 	animation: moveBottom 3s bottom;
 }
 
-.faceLeft img{
+#faceLeft img{
 	animation: moveLeft 3s left;
 }
 
-.faceTop img{
+#faceTop img{
 	animation: moveTop 3s top;
 } 
 
-.faceRight{
+#faceRight{
 	animation: moveRight 3s right;
 }
 
-.cube{
+#cube{
 	animation: 3s linear 3s infinite;
 }
