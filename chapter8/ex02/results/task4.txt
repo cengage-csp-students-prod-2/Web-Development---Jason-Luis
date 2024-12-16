@@ -1,0 +1,36 @@
+
+Status: PASSED!
+Check: 1
+Test: Create a style rule for `img` elements within hovered figure elements that sets the `width` to 100%.
+Reason: None
+Timestamp: 2024-12-16 07:12:23.824932
+
+Status: FAILED!
+Check: 2
+Test: Create a style rule for `img` elements within hovered figure elements that applies the `drop-shadow(offset-x offset-y blur-radius color)` and `grayscale(0)` filter functions.
+Reason: Assertion failed: 'drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)' != 'drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0)'
+- drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)
+?                         --------                 ^
++ drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0)
+?                              ++++++++++            ^
+ : Expected filter to be drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0) (drop-shadow(10px 10px 20px black) grayscale(0)), found drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)
+Error : AssertionError - 'drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)' != 'drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0)'
+- drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)
+?                         --------                 ^
++ drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0)
+?                              ++++++++++            ^
+ : Expected filter to be drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0) (drop-shadow(10px 10px 20px black) grayscale(0)), found drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)
+Timestamp: 2024-12-16 07:12:26.102167
+
+Status: FAILED!
+Check: 3
+Test: Create a style rule for `img` elements within hovered figure elements that applies a transition to the change in the filter property over a 2-second interval.
+Reason: Assertion failed: 'filter 2s' != 'filter 2s ease 0s'
+- filter 2s
++ filter 2s ease 0s
+ : Expected transition to be filter 2s ease 0s, found filter 2s
+Error : AssertionError - 'filter 2s' != 'filter 2s ease 0s'
+- filter 2s
++ filter 2s ease 0s
+ : Expected transition to be filter 2s ease 0s, found filter 2s
+Timestamp: 2024-12-16 07:12:28.381710

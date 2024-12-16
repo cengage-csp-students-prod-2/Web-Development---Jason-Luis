@@ -1,0 +1,13 @@
+
+Status: FAILED!
+Check: 1
+Test: Create the style rule for `figcaption` elements within the hovered `figure` element.
+Reason: Assertion failed: '0px' != '19.2px'
+- 0px
++ 19.2px
+ : Expected font-size to be 19.2px, found 0px
+Error : AssertionError - '0px' != '19.2px'
+- 0px
++ 19.2px
+ : Expected font-size to be 19.2px, found 0px
+Timestamp: 2024-12-16 07:12:30.714223
