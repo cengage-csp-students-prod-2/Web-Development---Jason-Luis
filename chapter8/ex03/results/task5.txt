@@ -3,32 +3,32 @@ Status: PASSED!
 Check: 1
 Test: Add the `moveBack` animation to the `faceBack img`.
 Reason: None
-Timestamp: 2024-12-16 09:11:26.249533
+Timestamp: 2024-12-16 09:20:15.810994
 
 Status: FAILED!
 Check: 2
 Test: Add the `moveBottom` animation to the `faceBottom img`.
 Reason: TypeError occurred: WebDriver.find_element() takes from 1 to 3 positional arguments but 4 were given
 Error : TypeError - WebDriver.find_element() takes from 1 to 3 positional arguments but 4 were given
-Timestamp: 2024-12-16 09:11:26.249721
+Timestamp: 2024-12-16 09:20:15.811210
 
 Status: FAILED!
 Check: 3
 Test: Add the `moveLeft` animation to the `faceLeft img`.
 Reason: TypeError occurred: WebDriver.find_element() takes from 1 to 3 positional arguments but 4 were given
 Error : TypeError - WebDriver.find_element() takes from 1 to 3 positional arguments but 4 were given
-Timestamp: 2024-12-16 09:11:26.249883
+Timestamp: 2024-12-16 09:20:15.811375
 
 Status: FAILED!
 Check: 4
 Test: Add the `moveTop` animation to the `faceTop img`.
 Reason: TypeError occurred: WebDriver.find_element() takes from 1 to 3 positional arguments but 4 were given
 Error : TypeError - WebDriver.find_element() takes from 1 to 3 positional arguments but 4 were given
-Timestamp: 2024-12-16 09:11:26.250037
+Timestamp: 2024-12-16 09:20:15.811498
 
 Status: FAILED!
 Check: 5
 Test: Add the `moveRight` animation to the `faceRight img`.
 Reason: TypeError occurred: WebDriver.find_element() takes from 1 to 3 positional arguments but 4 were given
 Error : TypeError - WebDriver.find_element() takes from 1 to 3 positional arguments but 4 were given
-Timestamp: 2024-12-16 09:11:26.250165
+Timestamp: 2024-12-16 09:20:15.811622
