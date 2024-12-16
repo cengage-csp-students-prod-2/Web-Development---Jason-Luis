@@ -92,25 +92,25 @@ div#cube img {
 #faceBottom{
 	animation-name: moveBottom;
 	animation-duration: 3s;
-	animation-fill-mode: both;
+	animation-fill-mode: bottom;
 }
 
 #faceLeft{
 	animation-name: moveLeft;
 	animation-duration: 3s;
-	animation-fill-mode: both;
+	animation-fill-mode: left;
 }
 
 #faceTop{
 	animation-name: moveTop;
 	animation-duration: 3s;
-	animation-fill-mode: both;
+	animation-fill-mode: top;
 } 
 
 #faceRight{
 	animation-name: moveRight;
 	animation-duration: 3s;
-	animation-fill-mode: both;
+	animation-fill-mode: right;
 }
 
 #cube .spinCube{
