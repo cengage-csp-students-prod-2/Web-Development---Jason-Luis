@@ -78,13 +78,15 @@ div#cube img {
 }
 
 #faceFront img{
-	animation: moveFront 3s forwards;
+	animation-name: moveFront;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
 } 
 
 #faceBack img{
 	animation-name: moveBack;
 	animation-duration: 3s;
-	animation-fill-mode: forwards; 
+	animation-fill-mode: backwards; 
 }
 
 #faceBottom img{
