@@ -85,8 +85,20 @@ div#cube img {
 	animation: moveBack 3s backwards; 
 }
 
+.faceBottom img{
+	animation: moveBottom 3s bottom;
+}
+
 .faceLeft img{
 	animation: moveLeft 3s left;
+}
+
+.faceTop img{
+	animation: moveTop 3s top;
+} 
+
+.faceRight{
+	animation: moveRight 3s right;
 }
 
 .cube{
