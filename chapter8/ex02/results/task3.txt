@@ -3,23 +3,23 @@ Status: PASSED!
 Check: 1
 Test: Create a style rule for the `figure` element during the hover event that sets the `width` to 400 pixels.
 Reason: None
-Timestamp: 2024-12-16 07:51:20.047839
+Timestamp: 2024-12-16 07:52:44.637256
 
 Status: PASSED!
 Check: 2
 Test: Create a style rule for the `figure` element during the hover event that sets the `z-index` value to 2.
 Reason: None
-Timestamp: 2024-12-16 07:51:22.318994
+Timestamp: 2024-12-16 07:52:46.908394
 
 Status: FAILED!
 Check: 3
 Test: Create a style rule for the `figure` element during the hover event that applies the transition for the change in the `width` property over a 2-second interval.
-Reason: Assertion failed: 'all' != 'all 2s ease 0s'
-- all
+Reason: Assertion failed: 'width 2s' != 'all 2s ease 0s'
+- width 2s
 + all 2s ease 0s
- : Expected transition to be all 2s ease 0s (width 2s), found all
-Error : AssertionError - 'all' != 'all 2s ease 0s'
-- all
+ : Expected transition to be all 2s ease 0s (width 2s), found width 2s
+Error : AssertionError - 'width 2s' != 'all 2s ease 0s'
+- width 2s
 + all 2s ease 0s
- : Expected transition to be all 2s ease 0s (width 2s), found all
-Timestamp: 2024-12-16 07:51:24.590048
+ : Expected transition to be all 2s ease 0s (width 2s), found width 2s
+Timestamp: 2024-12-16 07:52:49.180602

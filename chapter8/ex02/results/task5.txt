@@ -2,12 +2,14 @@
 Status: FAILED!
 Check: 1
 Test: Create the style rule for `figcaption` elements within the hovered `figure` element.
-Reason: Assertion failed: 'all' != 'font-size 2s ease 0s'
-- all
+Reason: Assertion failed: 'font-size 2s' != 'font-size 2s ease 0s'
+- font-size 2s
 + font-size 2s ease 0s
- : Expected transition to be font-size 2s ease 0s, found all
-Error : AssertionError - 'all' != 'font-size 2s ease 0s'
-- all
+?             ++++++++
+ : Expected transition to be font-size 2s ease 0s, found font-size 2s
+Error : AssertionError - 'font-size 2s' != 'font-size 2s ease 0s'
+- font-size 2s
 + font-size 2s ease 0s
- : Expected transition to be font-size 2s ease 0s, found all
-Timestamp: 2024-12-16 07:51:33.954897
+?             ++++++++
+ : Expected transition to be font-size 2s ease 0s, found font-size 2s
+Timestamp: 2024-12-16 07:52:58.493568
