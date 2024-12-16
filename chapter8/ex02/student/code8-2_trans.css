@@ -27,7 +27,7 @@ figure img {
    width: 150px;
 }
 
-figure figcaption {
+figcaption {
    font-size: 0px;
    text-align: center;
    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
