@@ -68,7 +68,7 @@ figure figcaption {
 figure:hover{
    width:400px; 
    z-index: 2;
-   transition: all 2s ease 0s (width 2s);
+   transition: width 2s;
 }
 
 figure:hover img{
