@@ -3,7 +3,7 @@ Status: PASSED!
 Check: 1
 Test: Create a style rule for `img` elements within hovered figure elements that sets the `width` to 100%.
 Reason: None
-Timestamp: 2024-12-16 07:14:25.563317
+Timestamp: 2024-12-16 07:20:04.647544
 
 Status: FAILED!
 Check: 2
@@ -20,7 +20,7 @@ Error : AssertionError - 'drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)' !
 + drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0)
 ?                              ++++++++++            ^
  : Expected filter to be drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0) (drop-shadow(10px 10px 20px black) grayscale(0)), found drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)
-Timestamp: 2024-12-16 07:14:27.841824
+Timestamp: 2024-12-16 07:20:06.924953
 
 Status: FAILED!
 Check: 3
@@ -33,4 +33,4 @@ Error : AssertionError - 'filter 2s' != 'filter 2s ease 0s'
 - filter 2s
 + filter 2s ease 0s
  : Expected transition to be filter 2s ease 0s, found filter 2s
-Timestamp: 2024-12-16 07:14:30.143767
+Timestamp: 2024-12-16 07:20:09.232000
