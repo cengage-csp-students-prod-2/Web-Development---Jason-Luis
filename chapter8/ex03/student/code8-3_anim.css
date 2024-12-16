@@ -83,31 +83,31 @@ div#cube img {
 	animation-fill-mode: forwards;
 } 
 
-#faceBack #moveBack {
+#faceBack{
 	animation-name: moveBack;
 	animation-duration: 3s;
 	animation-fill-mode: backwards; 
 }
 
-#faceBottom #moveBottom {
+#faceBottom{
 	animation-name: moveBottom;
 	animation-duration: 3s;
 	animation-fill-mode: bottom;
 }
 
-#faceLeft #moveLeft{
+#faceLeft{
 	animation-name: moveLeft;
 	animation-duration: 3s;
 	animation-fill-mode: left;
 }
 
-#faceTop #moveTop{
+#faceTop{
 	animation-name: moveTop;
 	animation-duration: 3s;
 	animation-fill-mode: top;
 } 
 
-#faceRight #moveRight{
+#faceRight{
 	animation-name: moveRight;
 	animation-duration: 3s;
 	animation-fill-mode: right;
