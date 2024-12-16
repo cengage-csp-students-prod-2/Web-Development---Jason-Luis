@@ -2,6 +2,6 @@
 Status: FAILED!
 Check: 1
 Test: Apply the `spinCube` animation to the `#cube` object
-Reason: Assertion failed: Unable to find "infinite" in the animation.
-Error : AssertionError - Unable to find "infinite" in the animation.
-Timestamp: 2024-12-16 08:42:25.008708
+Reason: Assertion failed: Unable to find "3s" in the animation.
+Error : AssertionError - Unable to find "3s" in the animation.
+Timestamp: 2024-12-16 08:51:43.738052
