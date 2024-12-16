@@ -3,13 +3,13 @@ Status: PASSED!
 Check: 1
 Test: Create a style rule for `img` elements within hovered figure elements that sets the `width` to 100%.
 Reason: None
-Timestamp: 2024-12-16 07:46:01.357690
+Timestamp: 2024-12-16 07:47:43.528107
 
 Status: PASSED!
 Check: 2
 Test: Create a style rule for `img` elements within hovered figure elements that applies the `drop-shadow(offset-x offset-y blur-radius color)` and `grayscale(0)` filter functions.
 Reason: None
-Timestamp: 2024-12-16 07:46:03.636590
+Timestamp: 2024-12-16 07:47:45.805365
 
 Status: FAILED!
 Check: 3
@@ -22,4 +22,4 @@ Error : AssertionError - 'filter 2s' != 'filter 2s ease 0s'
 - filter 2s
 + filter 2s ease 0s
  : Expected transition to be filter 2s ease 0s, found filter 2s
-Timestamp: 2024-12-16 07:46:05.916967
+Timestamp: 2024-12-16 07:47:48.080229
