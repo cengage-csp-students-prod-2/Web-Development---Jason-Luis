@@ -3,24 +3,13 @@ Status: PASSED!
 Check: 1
 Test: Create a style rule for `img` elements within hovered figure elements that sets the `width` to 100%.
 Reason: None
-Timestamp: 2024-12-16 07:30:36.048787
+Timestamp: 2024-12-16 07:33:03.120034
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Create a style rule for `img` elements within hovered figure elements that applies the `drop-shadow(offset-x offset-y blur-radius color)` and `grayscale(0)` filter functions.
-Reason: Assertion failed: 'drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)' != 'drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0)'
-- drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)
-?                         --------                 ^
-+ drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0)
-?                              ++++++++++            ^
- : Expected filter to be drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0) (drop-shadow(10px 10px 20px black) grayscale(0)), found drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)
-Error : AssertionError - 'drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)' != 'drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0)'
-- drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)
-?                         --------                 ^
-+ drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0)
-?                              ++++++++++            ^
- : Expected filter to be drop-shadow(rgb(0, 0, 0) 10px 10px 20px) grayscale(0) (drop-shadow(10px 10px 20px black) grayscale(0)), found drop-shadow(rgb(0, 0, 0) 3px 3px 10px) grayscale(1)
-Timestamp: 2024-12-16 07:30:38.330839
+Reason: None
+Timestamp: 2024-12-16 07:33:05.403113
 
 Status: FAILED!
 Check: 3
@@ -33,4 +22,4 @@ Error : AssertionError - 'filter 2s' != 'filter 2s ease 0s'
 - filter 2s
 + filter 2s ease 0s
  : Expected transition to be filter 2s ease 0s, found filter 2s
-Timestamp: 2024-12-16 07:30:40.753617
+Timestamp: 2024-12-16 07:33:07.725510
