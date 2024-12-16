@@ -4,4 +4,4 @@ Check: 1
 Test: Add the `moveFront` animation to the `faceFront img`.
 Reason: Assertion failed: Unable to find "3s" in the animation.
 Error : AssertionError - Unable to find "3s" in the animation.
-Timestamp: 2024-12-16 08:34:11.576934
+Timestamp: 2024-12-16 08:35:12.057553
