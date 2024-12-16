@@ -68,14 +68,13 @@ figure figcaption {
 figure:hover{
    width:400px; 
    z-index: 2;
-   transition: all 2s ease 0s;
+   transition: width 2s;
 }
 
 figure:hover img{
    width:100%; 
    filter: drop-shadow(10px 10px 20px black) grayscale(0);
-   transition: all filter 2s ;
-
+   transition: filter 2s;
 }
 
 figure:hover figcaption{
