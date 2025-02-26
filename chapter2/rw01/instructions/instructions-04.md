@@ -2,7 +2,7 @@
 
 Alison has inserted a comment from an athlete about the coaches. Format this comment by going to the "Blockquote Style" section and creating a style rule for the `aside blockquote` selector to do the following:
 1. Set the font size to **0.95em** using the font stack: **‘Comic Sans MS’**, **cursive**.
-2. Set the font color to **rgb(222, 128, 60)** and use a semi-transparent background color with the value **rgba(255, 2555, 255, 0.75)**.
+2. Set the font color to **rgb(222, 128, 60)** and use a semi-transparent background color with the value **rgba(255, 255, 255, 0.75)**.
 3. Set the padding space to **10** pixels.
 Define opening and closing quotes for the element using the Unicode character `201C` and `201D` respectively. 
 
